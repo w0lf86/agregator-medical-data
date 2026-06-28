@@ -1,0 +1,710 @@
+{
+  "versiune_schema": "2.0",
+  "ultima_actualizare": "2026-06-27",
+  "nota": "linkuri_programari poate avea 0, 1 sau mai multe intrari. telefon_programari e folosit pentru click-to-call (poate fi null daca nu exista un numar unic confirmat). tip_unitate distinge public/privat. Toate intrarile sunt verificate manual prin cautare reala.",
+  "spitale": [
+    {
+      "id": "buc-floreasca",
+      "nume_spital": "Spitalul Clinic de Urgență Floreasca",
+      "oras": "București",
+      "categorie": "Spital Clinic de Urgență",
+      "link_website": "https://www.urgentafloreasca.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Portal Programări Online",
+          "link": "https://programari.axamedis.ro/sfb"
+        }
+      ],
+      "telefon_programari": "0215709902",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-fundeni",
+      "nume_spital": "Institutul Clinic Fundeni",
+      "oras": "București",
+      "categorie": "Institut Clinic",
+      "link_website": "https://www.icfundeni.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0212750500",
+      "note_verificare": "Programare doar telefonică, conform site-ului oficial.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-suub",
+      "nume_spital": "Spitalul Universitar de Urgență București",
+      "oras": "București",
+      "categorie": "Spital Universitar de Urgență",
+      "link_website": "https://www.suub.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0212026147",
+      "note_verificare": "Programare doar telefonică (ambulatoriu).",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-grigore-alexandrescu",
+      "nume_spital": "Spitalul Clinic de Urgență pentru Copii \"Grigore Alexandrescu\"",
+      "oras": "București",
+      "categorie": "Spital Pediatric",
+      "link_website": "https://www.spitalulgrigorealexandrescu.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://programari.spitalulgrigorealexandrescu.ro/"
+        }
+      ],
+      "telefon_programari": "0213169366",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-sf-pantelimon",
+      "nume_spital": "Spitalul Clinic de Urgență \"Sf. Pantelimon\"",
+      "oras": "București",
+      "categorie": "Spital Clinic de Urgență",
+      "link_website": "https://urgentapantelimon.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (Ambulatoriu)",
+          "link": "https://urgentapantelimon.ro/ambulatoriu/"
+        }
+      ],
+      "telefon_programari": null,
+      "note_verificare": "Site-ul oferă și opțiune telefonică, dar nu există un număr unic dedicat programărilor.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-bagdasar-arseni",
+      "nume_spital": "Spitalul Clinic de Urgență \"Bagdasar-Arseni\"",
+      "oras": "București",
+      "categorie": "Spital Clinic de Urgență",
+      "link_website": "https://www.bagdasar-arseni.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213343025",
+      "note_verificare": "Programare doar telefonică.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-iob",
+      "nume_spital": "Institutul Oncologic \"Prof. Dr. Alexandru Trestioreanu\"",
+      "oras": "București",
+      "categorie": "Institut Oncologic",
+      "link_website": "https://www.iob.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://iob.ro/programari-online/"
+        }
+      ],
+      "telefon_programari": "0212271000",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-cdt-babes",
+      "nume_spital": "Centrul de Diagnostic și Tratament \"Dr. Victor Babeș\" (CDT)",
+      "oras": "București",
+      "categorie": "Centru de Diagnostic și Tratament",
+      "link_website": "https://www.cdt-babes.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Formular Programare",
+          "link": "https://www.cdt-babes.ro/programare_online/programare_online.php"
+        }
+      ],
+      "telefon_programari": null,
+      "note_verificare": "Diferit de 'Spitalul Clinic de Boli Infecțioase și Tropicale Victor Babeș' (programari.spitalulbabes.ro) - instituție separată, neadăugată încă.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-cantacuzino",
+      "nume_spital": "Spitalul Clinic \"Dr. I. Cantacuzino\"",
+      "oras": "București",
+      "categorie": "Spital Clinic",
+      "link_website": "https://www.spitalul-cantacuzino.ro/",
+      "linkuri_programari": [
+        {
+          "nume": "Formular Programare",
+          "link": "https://www.spitalul-cantacuzino.ro/despre-spital/istoric/programari.php"
+        }
+      ],
+      "telefon_programari": "0212107100",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-malaxa",
+      "nume_spital": "Spitalul Clinic \"Nicolae Malaxa\"",
+      "oras": "București",
+      "categorie": "Spital Clinic",
+      "link_website": "https://www.spitalmalaxa.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (HIPOCRATE - ASSMB)",
+          "link": "https://programarionline.spitalmalaxa.ro:8443/programarionline/"
+        }
+      ],
+      "telefon_programari": "0212555405",
+      "note_verificare": "Corectat: spitalul foloseste portalul oficial ASSMB, nu axamedis (linkul vechi).",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-filantropia",
+      "nume_spital": "Spitalul Clinic de Obstetrică-Ginecologie \"Filantropia\"",
+      "oras": "București",
+      "categorie": "Maternitate",
+      "link_website": "https://www.spitalulfilantropia.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programari.spitalulfilantropia.ro/programarionline/"
+        }
+      ],
+      "telefon_programari": "0213188930",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-sf-ioan",
+      "nume_spital": "Spitalul Clinic de Urgență \"Sf. Ioan\"",
+      "oras": "București",
+      "categorie": "Spital Clinic de Urgență",
+      "link_website": "https://sfib.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213345190",
+      "note_verificare": "Pagina de 'Programări online' a site-ului afișează \"Momentan în lucru\" - nefuncțională. Foloseste doar telefon.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-arsuri",
+      "nume_spital": "Spitalul Clinic de Urgență Chirurgie Plastică, Reparatorie și Arsuri",
+      "oras": "București",
+      "categorie": "Spital de Chirurgie Plastică",
+      "link_website": "https://arsuri.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0212240947",
+      "note_verificare": "Programare doar telefonică.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-gorgos",
+      "nume_spital": "Spitalul de Psihiatrie \"Titan\" (Dr. Constantin Gorgos)",
+      "oras": "București",
+      "categorie": "Spital de Psihiatrie",
+      "link_website": "https://spitalulgorgos.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://spitalulgorgos.ro/programare-online-spitalul-gorgos/"
+        }
+      ],
+      "telefon_programari": "0213412031",
+      "note_verificare": "Corectat: are programare online, nu doar telefonică, cum era marcat inițial.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-inrmfb",
+      "nume_spital": "Institutul Național de Recuperare, Medicină Fizică și Balneoclimatologie",
+      "oras": "București",
+      "categorie": "Institut de Recuperare",
+      "link_website": "https://www.inrmfb.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213186485",
+      "note_verificare": "Programare doar telefonică.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-matei-bals",
+      "nume_spital": "Institutul Național de Boli Infecțioase \"Prof. Dr. Matei Balș\"",
+      "oras": "București",
+      "categorie": "Institut de Boli Infecțioase",
+      "link_website": "https://www.mateibals.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213186100",
+      "note_verificare": "Programare doar telefonică.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-colentina",
+      "nume_spital": "Spitalul Clinic Colentina",
+      "oras": "București",
+      "categorie": "Spital Clinic",
+      "link_website": "https://nou.spitalulcolentina.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (HIPOCRATE - ASSMB)",
+          "link": "https://programarionline.spitalulcolentina.ro/programarionline/"
+        }
+      ],
+      "telefon_programari": "0213167320",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-colentina-ambulatoriu",
+      "nume_spital": "Ambulatoriul de Specialitate - Spitalul Clinic Colentina",
+      "oras": "București",
+      "categorie": "Ambulatoriu de Specialitate",
+      "link_website": "https://nou.spitalulcolentina.ro/specialitati/ambulatoriu-de-specialitate/",
+      "linkuri_programari": [],
+      "telefon_programari": "0213173245",
+      "note_verificare": "Programare telefonică. Adresă: Str. Dr. Calistrat Grozovici nr. 6.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "cluj-scju",
+      "nume_spital": "Spitalul Clinic Județean de Urgență Cluj-Napoca",
+      "oras": "Cluj-Napoca",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "link_website": "https://scjucluj.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://scjucluj.ro/index.php/informatii-pacienti/programari-online"
+        }
+      ],
+      "telefon_programari": "0264192771",
+      "note_verificare": "Telefon centrala generala; numerele exacte de programare telefonica difera pe sectie (interioare), vezi site.",
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "iasi-sf-spiridon",
+      "nume_spital": "Spitalul Clinic Județean de Urgență \"Sf. Spiridon\"",
+      "oras": "Iași",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "link_website": "https://www.spitalspiridon.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Portal Programări",
+          "link": "https://portal.spitalspiridon.ro/"
+        }
+      ],
+      "telefon_programari": "0232240822",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "tm-pius-brinzeu",
+      "nume_spital": "Spitalul Clinic Județean de Urgență \"Pius Brînzeu\"",
+      "oras": "Timișoara",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "link_website": "https://www.hosptm.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programări Ambulatoriu (telefonice sau online)",
+          "link": "https://www.hosptm.ro/programari-ambulator/"
+        },
+        {
+          "nume": "Portal Programări (legacy)",
+          "link": "https://programari.hosptm.ro/"
+        }
+      ],
+      "telefon_programari": "0752297252",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "ct-sf-apostol-andrei",
+      "nume_spital": "Spitalul Clinic Județean de Urgență \"Sf. Apostol Andrei\"",
+      "oras": "Constanța",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "link_website": "https://www.spitalulconstanta.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://programari.spitalulconstanta.ro:44388/ProgramariOnline/"
+        }
+      ],
+      "telefon_programari": "0241503424",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "tip_unitate": "public"
+    },
+    {
+      "id": "buc-oftalmologie-olteanu",
+      "nume_spital": "Institutul Clinic de Urgențe Oftalmologice \"Prof. Dr. Mircea Olteanu\"",
+      "oras": "București",
+      "categorie": "Institut de Urgență Oftalmologică",
+      "tip_unitate": "public",
+      "link_website": "https://spitaloftalmologie.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213192751",
+      "note_verificare": "Fostul Spital Clinic de Urgențe Oftalmologice. Programarea se face per medic (numere individuale pe site), nu printr-un portal unic.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-orl-hociota",
+      "nume_spital": "Institutul de Fonoaudiologie și Chirurgie Funcțională ORL \"Prof. Dr. D. Hociotă\"",
+      "oras": "București",
+      "categorie": "Institut ORL",
+      "tip_unitate": "public",
+      "link_website": "https://ifacforl.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Formular Programare Online (pe homepage)",
+          "link": "https://ifacforl.ro/"
+        }
+      ],
+      "telefon_programari": "0214100869",
+      "note_verificare": "Butonul \"Fă-ți o programare\" e pe pagina principală a site-ului.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-omf-theodorescu",
+      "nume_spital": "Spitalul Clinic de Chirurgie Oro-Maxilo-Facială \"Prof. Dr. Dan Theodorescu\"",
+      "oras": "București",
+      "categorie": "Spital de Chirurgie Oro-Maxilo-Facială",
+      "tip_unitate": "public",
+      "link_website": "https://spitalomf.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213158855",
+      "note_verificare": "Programare doar telefonică.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-burghele",
+      "nume_spital": "Spitalul Clinic \"Prof. Dr. Theodor Burghele\" (Urologie)",
+      "oras": "București",
+      "categorie": "Spital Clinic de Urologie",
+      "tip_unitate": "public",
+      "link_website": "https://burghele.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (HIPOCRATE - ASSMB)",
+          "link": "https://programarionline.burghele.ro:8443/programarionline/"
+        }
+      ],
+      "telefon_programari": "0214106910",
+      "note_verificare": "Cunoscut popular ca \"Spitalul Panduri\" (denumire veche).",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-coltea",
+      "nume_spital": "Spitalul Clinic Colțea",
+      "oras": "București",
+      "categorie": "Spital Clinic",
+      "tip_unitate": "public",
+      "link_website": "https://coltea.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (HIPOCRATE - ASSMB)",
+          "link": "https://programarionline.coltea.ro/programarionline/"
+        }
+      ],
+      "telefon_programari": "0213874100",
+      "note_verificare": null,
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-obregia",
+      "nume_spital": "Spitalul Clinic de Psihiatrie \"Prof. Dr. Al. Obregia\"",
+      "oras": "București",
+      "categorie": "Spital de Psihiatrie",
+      "tip_unitate": "public",
+      "link_website": "https://spital-obregia.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (HIPOCRATE - ASSMB)",
+          "link": "https://programarionline.spital-obregia.ro/programarionline/"
+        }
+      ],
+      "telefon_programari": "0213320411",
+      "note_verificare": null,
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-nefrologie-davila",
+      "nume_spital": "Spitalul Clinic de Nefrologie \"Dr. Carol Davila\"",
+      "oras": "București",
+      "categorie": "Spital de Nefrologie",
+      "tip_unitate": "public",
+      "link_website": "https://www.spcaroldavila.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (HIPOCRATE - ASSMB)",
+          "link": "https://programarionline.spcaroldavila.ro:8443/ProgramariOnline/"
+        }
+      ],
+      "telefon_programari": "0213189184",
+      "note_verificare": null,
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-maria-curie",
+      "nume_spital": "Spitalul Clinic de Urgență pentru Copii \"Maria Sklodowska Curie\"",
+      "oras": "București",
+      "categorie": "Spital Pediatric de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.mscurie.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0214604260",
+      "note_verificare": "Programare telefonică, pe interioare diferite per secție (vezi site pentru lista completă).",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-spital-militar-central",
+      "nume_spital": "Spitalul Universitar de Urgență Militar Central \"Dr. Carol Davila\"",
+      "oras": "București",
+      "categorie": "Spital Militar de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.scumc.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online Ambulatoriu",
+          "link": "https://programari.scumc.ro/"
+        }
+      ],
+      "telefon_programari": "0319458",
+      "note_verificare": "Acces public (sistem CNAS), nu doar pentru militari. Program: Luni-Vineri.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-cardio-iliescu",
+      "nume_spital": "Institutul de Urgență pentru Boli Cardiovasculare \"Prof. Dr. C.C. Iliescu\"",
+      "oras": "București",
+      "categorie": "Institut de Urgență Cardiovasculară",
+      "tip_unitate": "public",
+      "link_website": "https://cardioiliescu.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213021110",
+      "note_verificare": "Programare telefonică (08:00-14:00) sau email. Urgențele se prezintă direct la UPU, 24/7.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-agrippa-ionescu",
+      "nume_spital": "Spitalul Clinic de Urgență \"Prof. Dr. Agrippa Ionescu\"",
+      "oras": "București",
+      "categorie": "Spital Clinic de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitalulagrippaionescu.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://spitalulagrippaionescu.ro/programari/"
+        }
+      ],
+      "telefon_programari": "0377720000",
+      "note_verificare": null,
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-neurologie-innbn",
+      "nume_spital": "Institutul Național de Neurologie și Boli Neurovasculare",
+      "oras": "București",
+      "categorie": "Institut de Neurologie",
+      "tip_unitate": "public",
+      "link_website": "https://www.innbn-bucuresti.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213343004",
+      "note_verificare": "IMPORTANT: site-ul oficial precizează explicit \"NU SE FAC PROGRAMARI PENTRU CONSULTATII\" - accesul se face prin transfer/bilet de trimitere, nu prin programare directă a pacientului. Telefonul e pt informații generale.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-insmc-alessandrescu-rusescu",
+      "nume_spital": "Institutul Național pentru Sănătatea Mamei și Copilului \"Alessandrescu-Rusescu\" (Polizu)",
+      "oras": "București",
+      "categorie": "Institut Materno-Infantil",
+      "tip_unitate": "public",
+      "link_website": "https://www.insmc.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://portal.insmc.ro/appointments"
+        }
+      ],
+      "telefon_programari": "0212422713",
+      "note_verificare": "Include celebra Maternitate Polizu.",
+      "verificat_manual": true
+    },
+    {
+      "id": "priv-sanador",
+      "nume_spital": "Spitalul Clinic SANADOR",
+      "oras": "București",
+      "categorie": "Spital Privat Multidisciplinar",
+      "tip_unitate": "privat",
+      "link_website": "https://www.sanador.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://www.sanador.ro/programare-online"
+        }
+      ],
+      "telefon_programari": "0219699",
+      "note_verificare": "Cel mai mare spital privat din România. Singurul spital privat din București cu Compartiment de Primiri Urgențe propriu, non-stop.",
+      "verificat_manual": true
+    },
+    {
+      "id": "priv-regina-maria-baneasa",
+      "nume_spital": "Spitalul Băneasa (Regina Maria)",
+      "oras": "București",
+      "categorie": "Spital Privat - Maternitate și Chirurgie",
+      "tip_unitate": "privat",
+      "link_website": "https://www.reginamaria.ro/spitale/spitalul-baneasa",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://www.reginamaria.ro/spitale/spitalul-baneasa/programare"
+        }
+      ],
+      "telefon_programari": "0219268",
+      "note_verificare": "Singurul spital din România cu maternitate acreditată internațional JCI.",
+      "verificat_manual": true
+    },
+    {
+      "id": "priv-medlife-ortopedie",
+      "nume_spital": "Spitalul de Ortopedie și Chirurgie Plastică MedLife",
+      "oras": "București",
+      "categorie": "Spital Privat de Ortopedie și Chirurgie Plastică",
+      "tip_unitate": "privat",
+      "link_website": "https://www.medlife.ro/spitalul-de-ortopedie-si-chirurgie-plastica-medlife",
+      "linkuri_programari": [],
+      "telefon_programari": "0219646",
+      "note_verificare": "Primul spital privat din România dedicat integral sferei ortopedice. MedLife are si alte spitale (Titan, NORD Pipera) - de adaugat separat daca vrei extindere.",
+      "verificat_manual": true
+    },
+    {
+      "id": "priv-medicover-pipera",
+      "nume_spital": "Spitalul Medicover Pipera",
+      "oras": "București",
+      "categorie": "Spital Privat Multidisciplinar",
+      "tip_unitate": "privat",
+      "link_website": "https://www.medicover.ro/spital-bucuresti/",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programare.medicover.ro/"
+        }
+      ],
+      "telefon_programari": "0219896",
+      "note_verificare": "Cel mai modern spital multidisciplinar Medicover - chirurgie robotică, laparoscopică.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-ana-aslan",
+      "nume_spital": "Institutul Național de Gerontologie și Geriatrie \"Ana Aslan\"",
+      "oras": "București",
+      "categorie": "Institut de Geriatrie și Gerontologie",
+      "tip_unitate": "public",
+      "link_website": "https://ana-aslan.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0772002162",
+      "note_verificare": "Programare telefonică sau WhatsApp (09:00-19:00), sau prin formular pe site. Sediu central in Otopeni, punct de lucru ambulatoriu in Bucuresti, Spatarului nr 15.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-parhon",
+      "nume_spital": "Institutul Național de Endocrinologie \"C.I. Parhon\"",
+      "oras": "București",
+      "categorie": "Institut de Endocrinologie",
+      "tip_unitate": "public",
+      "link_website": "https://parhon.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://appointments.parhon.ro/"
+        }
+      ],
+      "telefon_programari": "0213172041",
+      "note_verificare": "Programarea online se solicita cu minim 72 ore inainte.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-cf-witting",
+      "nume_spital": "Spitalul Clinic Nr. 1 C.F. Witting",
+      "oras": "București",
+      "categorie": "Spital Clinic CFR",
+      "tip_unitate": "public",
+      "link_website": "https://spitalcfwiting.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://spitalcfwiting.ro/programare"
+        }
+      ],
+      "telefon_programari": "0213129530",
+      "note_verificare": "Acces public (CNAS), nu doar pentru personalul CFR. Telefonul are mai multe interioare pe sectii.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-ion-stoia",
+      "nume_spital": "Centrul Clinic de Boli Reumatismale \"Dr. Ion Stoia\"",
+      "oras": "București",
+      "categorie": "Centru de Reumatologie",
+      "tip_unitate": "public",
+      "link_website": "https://reumatologiedrstoia.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0213175025",
+      "note_verificare": "Singurul spital de monospecialitate din tara pe reumatologie. Programare doar telefonica.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-robanescu",
+      "nume_spital": "Centrul Național Clinic de Recuperare Neuropsihomotorie Copii \"Dr. Nicolae Robănescu\"",
+      "oras": "București",
+      "categorie": "Centru de Recuperare Pediatrică",
+      "tip_unitate": "public",
+      "link_website": "https://www.recuperarecopii.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0729063394",
+      "note_verificare": "Specializat exclusiv pe recuperare neuropsihomotorie pentru copii 0-18 ani.",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-paulescu",
+      "nume_spital": "Institutul Național de Diabet, Nutriție și Boli Metabolice \"N.C. Paulescu\"",
+      "oras": "București",
+      "categorie": "Institut de Diabet și Nutriție",
+      "tip_unitate": "public",
+      "link_website": "https://paulescu.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0212108499",
+      "note_verificare": "Programare doar telefonică. Are 2 sedii: Ion Movila (24/7) si Caragiale (ambulatoriu).",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-sf-maria",
+      "nume_spital": "Spitalul Clinic \"Sf. Maria\" (fostul Spitalul Grivița)",
+      "oras": "București",
+      "categorie": "Spital Clinic",
+      "tip_unitate": "public",
+      "link_website": "https://spitalsfmaria.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0212223550",
+      "note_verificare": "Programare doar telefonică, pe interioare per sectie/cabinet (vezi pagina Cabinete de pe site).",
+      "verificat_manual": true
+    },
+    {
+      "id": "buc-victor-gomoiu",
+      "nume_spital": "Spitalul Clinic de Copii \"Dr. Victor Gomoiu\"",
+      "oras": "București",
+      "categorie": "Spital Pediatric",
+      "tip_unitate": "public",
+      "link_website": "https://spitalulgomoiu.ro",
+      "linkuri_programari": [],
+      "telefon_programari": null,
+      "note_verificare": "Programare telefonica/SMS pe sectii - sistemul e suprasolicitat (sub 20% din apeluri preluate, conform anuntului oficial). Nu exista un numar central unic confirmat - vezi pagina \"Programari telefonice\" de pe site pentru numerele exacte pe specialitate.",
+      "verificat_manual": true
+    }
+  ]
+}
