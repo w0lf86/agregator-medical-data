@@ -1,6 +1,6 @@
 {
   "versiune_schema": "2.0",
-  "ultima_actualizare": "2026-06-27",
+  "ultima_actualizare": "2026-06-28",
   "nota": "linkuri_programari poate avea 0, 1 sau mai multe intrari. telefon_programari e folosit pentru click-to-call (poate fi null daca nu exista un numar unic confirmat). tip_unitate distinge public/privat. Toate intrarile sunt verificate manual prin cautare reala.",
   "spitale": [
     {
@@ -40,7 +40,12 @@
         "Chirurgie Maxilo-Facială (cabinet)",
         "Recuperare Medicală"
       ],
-      "specialitati_nota": "NU are: Urologie, Stomatologie. Ginecologia e doar cabinet de consultații, fără secție cu paturi."
+      "specialitati_nota": "NU are: Urologie, Stomatologie. Ginecologia e doar cabinet de consultații, fără secție cu paturi.",
+      "email_programari": "spital@urgentafloreasca.ro",
+      "telefoane_suplimentare": [
+        "0215992300",
+        "0215992308"
+      ]
     },
     {
       "id": "buc-fundeni",
@@ -54,7 +59,11 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@icfundeni.ro",
+      "telefoane_suplimentare": [
+        "0212750700"
+      ]
     },
     {
       "id": "buc-suub",
@@ -86,7 +95,11 @@
         "Prematuri",
         "Chirurgie Artroscopică"
       ],
-      "specialitati_nota": "Spital foarte complex (45 de secții), acopera aproape toate specialitatile majore."
+      "specialitati_nota": "Spital foarte complex (45 de secții), acopera aproape toate specialitatile majore.",
+      "email_programari": "secretariat@suub.ro",
+      "telefoane_suplimentare": [
+        "0213180519"
+      ]
     },
     {
       "id": "buc-grigore-alexandrescu",
@@ -105,7 +118,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "programari@spitalulgrigorealexandrescu.ro"
     },
     {
       "id": "buc-sf-pantelimon",
@@ -138,7 +152,12 @@
         "Oftalmologie",
         "ORL (cabinet)"
       ],
-      "specialitati_nota": "NU are: Urologie, Psihiatrie, Oncologie. Maternitate de grad III (cea mai inalta)."
+      "specialitati_nota": "NU are: Urologie, Psihiatrie, Oncologie. Maternitate de grad III (cea mai inalta).",
+      "email_programari": "contact@urgentapantelimon.ro",
+      "telefoane_suplimentare": [
+        "0212554849",
+        "0212554949"
+      ]
     },
     {
       "id": "buc-bagdasar-arseni",
@@ -160,7 +179,8 @@
         "Recuperare Neuromusculară",
         "Secția de Arși"
       ],
-      "specialitati_nota": "NU are: Obstetrică-Ginecologie, Pediatrie, Oncologie, Urologie ca secție separată. Specializare principala: neurochirurgie."
+      "specialitati_nota": "NU are: Obstetrică-Ginecologie, Pediatrie, Oncologie, Urologie ca secție separată. Specializare principala: neurochirurgie.",
+      "email_programari": "directie@bagdasar-arseni.ro"
     },
     {
       "id": "buc-iob",
@@ -179,7 +199,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@iob.ro"
     },
     {
       "id": "buc-cdt-babes",
@@ -198,7 +219,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "centru@cdt-babes.ro"
     },
     {
       "id": "buc-cantacuzino",
@@ -217,7 +239,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "cantacuzino@spitalul-cantacuzino.ro"
     },
     {
       "id": "buc-malaxa",
@@ -236,7 +259,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@spitalmalaxa.ro"
     },
     {
       "id": "buc-filantropia",
@@ -247,7 +271,7 @@
       "linkuri_programari": [
         {
           "nume": "Programare Online",
-          "link": "https://programari.spitalulfilantropia.ro/programarionline/"
+          "link": "https://programare.spitalulfilantropia.ro/"
         }
       ],
       "telefon_programari": "0213188930",
@@ -255,7 +279,9 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": null,
+      "telefoane_suplimentare": []
     },
     {
       "id": "buc-sf-ioan",
@@ -293,7 +319,11 @@
         "Neonatologie",
         "Neurochirurgie"
       ],
-      "specialitati_nota": "Unul dintre cele mai complete spitale - are si Urologie si Obstetrica-Ginecologie cu sectii proprii."
+      "specialitati_nota": "Unul dintre cele mai complete spitale - are si Urologie si Obstetrica-Ginecologie cu sectii proprii.",
+      "email_programari": "secretariat@sfib.ro",
+      "telefoane_suplimentare": [
+        "0213345170"
+      ]
     },
     {
       "id": "buc-arsuri",
@@ -307,7 +337,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@arsuri.ro"
     },
     {
       "id": "buc-gorgos",
@@ -326,7 +357,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "contact@spitalulgorgos.ro"
     },
     {
       "id": "buc-inrmfb",
@@ -334,13 +366,19 @@
       "oras": "București",
       "categorie": "Institut de Recuperare",
       "link_website": "https://www.inrmfb.ro",
-      "linkuri_programari": [],
-      "telefon_programari": "0213186485",
-      "note_verificare": "Programare doar telefonică.",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programari.inrmfb.ro/"
+        }
+      ],
+      "telefon_programari": "0311302300",
+      "note_verificare": "Corectat: are portal online (anterior marcat doar telefonic). Atentie: programarea online era marcata ca \"suspendata din motive tehnice\" pe pagina principala - de reverificat periodic.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "info@inrmfb.ro"
     },
     {
       "id": "buc-matei-bals",
@@ -373,7 +411,11 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@spitalulcolentina.ro",
+      "telefoane_suplimentare": [
+        "0213173245"
+      ]
     },
     {
       "id": "buc-colentina-ambulatoriu",
@@ -401,12 +443,13 @@
           "link": "https://scjucluj.ro/index.php/informatii-pacienti/programari-online"
         }
       ],
-      "telefon_programari": "0264192771",
-      "note_verificare": "Telefon centrala generala; numerele exacte de programare telefonica difera pe sectie (interioare), vezi site.",
+      "telefon_programari": "0264592771",
+      "note_verificare": "Corectat: telefonul vechi (0264192771) era gresit, cel real e 0264592771.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@scjucluj.ro"
     },
     {
       "id": "iasi-sf-spiridon",
@@ -448,7 +491,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "judetean@hosptm.ro"
     },
     {
       "id": "ct-sf-apostol-andrei",
@@ -467,7 +511,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@spitalulconstanta.ro"
     },
     {
       "id": "buc-oftalmologie-olteanu",
@@ -552,7 +597,8 @@
       "note_verificare": null,
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@coltea.ro"
     },
     {
       "id": "buc-obregia",
@@ -571,7 +617,8 @@
       "note_verificare": null,
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@spital-obregia.ro"
     },
     {
       "id": "buc-nefrologie-davila",
@@ -590,7 +637,8 @@
       "note_verificare": null,
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "contact@spcaroldavila.ro"
     },
     {
       "id": "buc-maria-curie",
@@ -662,7 +710,11 @@
       "note_verificare": "Programare telefonică (08:00-14:00) sau email. Urgențele se prezintă direct la UPU, 24/7.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "ibcardio@gmail.com",
+      "telefoane_suplimentare": [
+        "0213026758"
+      ]
     },
     {
       "id": "buc-agrippa-ionescu",
@@ -685,11 +737,17 @@
         "Chirurgie Generală",
         "Recuperare, Medicină Fizică și Balneologie",
         "Chirurgie Cardiovasculară",
-        "Chirurgie Plastică și Microchirurgie Reconstructivă",
+        "Chirurgie Plastică și Microchirurgie Reconstructivă, Unitatea de Arși Grav",
         "Medicină Internă",
+        "Ortopedie și Traumatologie",
+        "Obstetrică-Ginecologie",
+        "Neurologie",
+        "Boli Infecțioase",
+        "Endocrinologie",
+        "Diabet Zaharat, Nutriție și Boli Metabolice",
         "UPU"
       ],
-      "specialitati_nota": "NU are: Obstetrică-Ginecologie, Pediatrie. Istoric specializat pe chirurgie plastica/reconstructiva (gestionat de SRI, dar acces si pentru civili)."
+      "specialitati_nota": "Corectat: are mai multe specialitati decat marcat initial (inclusiv Obstetrica-Ginecologie, Neurologie, Ortopedie)."
     },
     {
       "id": "buc-neurologie-innbn",
@@ -718,11 +776,12 @@
           "link": "https://portal.insmc.ro/appointments"
         }
       ],
-      "telefon_programari": "0212422713",
+      "telefon_programari": "0219365",
       "note_verificare": "Include celebra Maternitate Polizu.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariatpolizu@insmc.ro"
     },
     {
       "id": "priv-sanador",
@@ -741,7 +800,8 @@
       "note_verificare": "Cel mai mare spital privat din România. Singurul spital privat din București cu Compartiment de Primiri Urgențe propriu, non-stop.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "frontdesk@sanador.ro"
     },
     {
       "id": "priv-regina-maria-baneasa",
@@ -793,7 +853,8 @@
       "note_verificare": "Cel mai modern spital multidisciplinar Medicover - chirurgie robotică, laparoscopică.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "receptie.spital@medicover.ro"
     },
     {
       "id": "buc-ana-aslan",
@@ -807,7 +868,8 @@
       "note_verificare": "Programare telefonică sau WhatsApp (09:00-19:00), sau prin formular pe site. Sediu central in Otopeni, punct de lucru ambulatoriu in Bucuresti, Spatarului nr 15.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "programari.policlinica@ana-aslan.ro"
     },
     {
       "id": "buc-parhon",
@@ -826,7 +888,8 @@
       "note_verificare": "Programarea online se solicita cu minim 72 ore inainte.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@parhon.ro"
     },
     {
       "id": "buc-cf-witting",
@@ -845,7 +908,8 @@
       "note_verificare": "Acces public (CNAS), nu doar pentru personalul CFR. Telefonul are mai multe interioare pe sectii.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@spitalcfwiting.ro"
     },
     {
       "id": "buc-ion-stoia",
@@ -859,7 +923,8 @@
       "note_verificare": "Singurul spital de monospecialitate din tara pe reumatologie. Programare doar telefonica.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "receptie@reumatologiedrstoia.ro"
     },
     {
       "id": "buc-robanescu",
@@ -869,11 +934,12 @@
       "tip_unitate": "public",
       "link_website": "https://www.recuperarecopii.ro",
       "linkuri_programari": [],
-      "telefon_programari": "0729063394",
+      "telefon_programari": "0730565575",
       "note_verificare": "Specializat exclusiv pe recuperare neuropsihomotorie pentru copii 0-18 ani.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "cnmrnc@yahoo.com"
     },
     {
       "id": "buc-paulescu",
@@ -887,7 +953,8 @@
       "note_verificare": "Programare doar telefonică. Are 2 sedii: Ion Movila (24/7) si Caragiale (ambulatoriu).",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "secretariat@paulescu.ro"
     },
     {
       "id": "buc-sf-maria",
@@ -901,7 +968,8 @@
       "note_verificare": "Programare doar telefonică, pe interioare per sectie/cabinet (vezi pagina Cabinete de pe site).",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "ambulator@spitalsfmaria.ro"
     },
     {
       "id": "buc-victor-gomoiu",
@@ -909,13 +977,17 @@
       "oras": "București",
       "categorie": "Spital Pediatric",
       "tip_unitate": "public",
-      "link_website": "https://spitalulgomoiu.ro",
+      "link_website": "https://www.spitalgomoiu.ro",
       "linkuri_programari": [],
-      "telefon_programari": null,
+      "telefon_programari": "0213232230",
       "note_verificare": "Programare telefonica/SMS pe sectii - sistemul e suprasolicitat (sub 20% din apeluri preluate, conform anuntului oficial). Nu exista un numar central unic confirmat - vezi pagina \"Programari telefonice\" de pe site pentru numerele exacte pe specialitate.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "contact@spitalgomoiu.ro",
+      "telefoane_suplimentare": [
+        "0213212162"
+      ]
     },
     {
       "id": "buc-foisor",
@@ -923,13 +995,14 @@
       "oras": "București",
       "categorie": "Spital de Ortopedie",
       "tip_unitate": "public",
-      "link_website": null,
+      "link_website": "https://www.foisor.ro",
       "linkuri_programari": [],
       "telefon_programari": "0212520057",
       "note_verificare": "Specializat pe ortopedie-traumatologie. Adresa: Bd. Ferdinand nr. 35-37, sector 2. Site-ul oficial nu a putut fi confirmat - de verificat.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "pacient@foisor.ro"
     },
     {
       "id": "buc-victor-babes-infectioase",
@@ -951,13 +1024,14 @@
       "oras": "București",
       "categorie": "Spital de Pneumoftiziologie",
       "tip_unitate": "public",
-      "link_website": null,
+      "link_website": "https://www.pneumosfstefan.ro",
       "linkuri_programari": [],
-      "telefon_programari": null,
+      "telefon_programari": "0212103936",
       "note_verificare": "Specializat pe boli pulmonare si TBC. Adresa: Sos. Stefan cel Mare nr. 11, sector 2. Telefon de confirmat.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "contact@pneumosfstefan.ro"
     },
     {
       "id": "buc-sf-luca",
@@ -979,13 +1053,14 @@
       "oras": "București",
       "categorie": "Maternitate",
       "tip_unitate": "public",
-      "link_website": null,
+      "link_website": "https://maternitateagiulesti.ro",
       "linkuri_programari": [],
       "telefon_programari": "0213161281",
       "note_verificare": "Singura clinica de stat din Bucuresti acreditata pentru fertilizare in vitro. Adresa: Calea Giulesti nr. 5, sector 6.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "contact@panaitsarbu.ro"
     },
     {
       "id": "priv-medicover-cluj",
@@ -1094,7 +1169,8 @@
       "note_verificare": "Specializat pe obstetrica-ginecologie si fertilizare in vitro.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "email_programari": "office@euromaterna.ro"
     }
   ]
 }
