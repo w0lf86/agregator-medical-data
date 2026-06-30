@@ -1,6 +1,6 @@
 {
   "versiune_schema": "2.0",
-  "ultima_actualizare": "2026-06-28",
+  "ultima_actualizare": "2026-06-29",
   "nota": "linkuri_programari poate avea 0, 1 sau mai multe intrari. telefon_programari e folosit pentru click-to-call (poate fi null daca nu exista un numar unic confirmat). tip_unitate distinge public/privat. Toate intrarile sunt verificate manual prin cautare reala.",
   "spitale": [
     {
@@ -1171,6 +1171,231 @@
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": "office@euromaterna.ro"
+    },
+    {
+      "id": "brasov-scjub",
+      "nume_spital": "Spitalul Clinic Județean de Urgență Brașov",
+      "oras": "Brașov",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://scjubv.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://scjubv.ro/programari/"
+        }
+      ],
+      "telefon_programari": "0268320022",
+      "email_programari": null,
+      "note_verificare": "Programarea online se face per cabinet/medic, cu date diferite de deschidere pentru fiecare specialitate - verifica pagina Programari pentru detalii actuale.",
+      "verificat_manual": true,
+      "specialitati": [
+        "Medicină Internă",
+        "Gastroenterologie",
+        "Neurologie",
+        "Neurochirurgie",
+        "Chirurgie Generală",
+        "Chirurgie Plastică",
+        "Chirurgie Maxilo-Facială",
+        "Chirurgie Toracică",
+        "Chirurgie Vasculară",
+        "Cardiologie",
+        "Endocrinologie",
+        "Cardiologie Intervențională",
+        "Ortopedie și Traumatologie",
+        "Diabet, Nutriție și Boli Metabolice",
+        "Hematologie",
+        "Reumatologie",
+        "Balneo-fizioterapie",
+        "Urologie",
+        "Oftalmologie",
+        "Oncologie",
+        "ORL"
+      ],
+      "specialitati_nota": null
+    },
+    {
+      "id": "craiova-scjuc",
+      "nume_spital": "Spitalul Clinic Județean de Urgență Craiova",
+      "oras": "Craiova",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.scjuc.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0251502350",
+      "email_programari": "scjuc.craiova@gmail.com",
+      "note_verificare": "Programare telefonica: 0251-502350 sau 0251-502103. Cel mai mare spital din Oltenia (1518 paturi, 34 specialitati).",
+      "verificat_manual": true,
+      "specialitati": [
+        "Anestezie și Terapie Intensivă",
+        "Boli Infecțioase",
+        "Cardiologie",
+        "Dermatovenerologie",
+        "Endocrinologie",
+        "Medicină Internă",
+        "Nefrologie",
+        "Neonatologie",
+        "Neurologie",
+        "Oncologie Medicală",
+        "Pediatrie",
+        "Pneumologie",
+        "Psihiatrie",
+        "Chirurgie Generală",
+        "Obstetrică-Ginecologie",
+        "Oftalmologie",
+        "Ortopedie și Traumatologie",
+        "ORL",
+        "Urologie"
+      ],
+      "specialitati_nota": null
+    },
+    {
+      "id": "galati-scju",
+      "nume_spital": "Spitalul Clinic Județean de Urgență \"Sf. Apostol Andrei\" Galați",
+      "oras": "Galați",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.spitalulurgentagalati.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online Ambulatoriu",
+          "link": "https://www.spitalulurgentagalati.ro/"
+        }
+      ],
+      "telefon_programari": "0236301111",
+      "email_programari": "secretariat@spitalulurgentagalati.ro",
+      "note_verificare": "Cel mai mare spital din judetul Galati (1432 paturi).",
+      "verificat_manual": true,
+      "specialitati": [
+        "Anestezie și Terapie Intensivă",
+        "Boli Infecțioase",
+        "Cardiologie",
+        "Dermatovenerologie",
+        "Endocrinologie",
+        "Medicină Internă",
+        "Nefrologie",
+        "Neonatologie",
+        "Neurologie",
+        "Oncologie Medicală",
+        "Pediatrie",
+        "Pneumologie",
+        "Psihiatrie",
+        "Chirurgie Generală",
+        "Obstetrică-Ginecologie",
+        "Oftalmologie",
+        "Ortopedie și Traumatologie",
+        "ORL",
+        "Urologie"
+      ],
+      "specialitati_nota": null
+    },
+    {
+      "id": "ploiesti-sjup",
+      "nume_spital": "Spitalul Județean de Urgență \"Dr. Constantin Andreoiu\" Ploiești",
+      "oras": "Ploiești",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://sjup.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0244537711",
+      "email_programari": null,
+      "note_verificare": "Programare telefonica, pe numere diferite per sectie (vezi sjup.ro/despre-noi/numere-telefon-pentru-programari). Spital pavilionar, functioneaza in 6 locatii diferite in Ploiesti. O aplicatie de programari online e in dezvoltare.",
+      "verificat_manual": true,
+      "specialitati": [
+        "Chirurgie Plastică și Microchirurgie",
+        "Chirurgie Orală și Maxilo-Facială",
+        "Dermatologie",
+        "Nutriție și Boli Metabolice",
+        "Gastroenterologie",
+        "Neurologie",
+        "Neurochirurgie",
+        "Chirurgie Vasculară",
+        "Nefrologie",
+        "Cardiologie Intervențională",
+        "Medicină Internă",
+        "Cardiologie"
+      ],
+      "specialitati_nota": null
+    },
+    {
+      "id": "sibiu-scjus",
+      "nume_spital": "Spitalul Clinic Județean de Urgență Sibiu",
+      "oras": "Sibiu",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://scjus.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://scjus.ro/programari-online/"
+        }
+      ],
+      "telefon_programari": "0269215050",
+      "email_programari": "office@scjus.ro",
+      "note_verificare": "Programarea online necesita bilet de trimitere, card de sanatate, B.I./C.I.",
+      "verificat_manual": true,
+      "specialitati": [
+        "Anestezie și Terapie Intensivă",
+        "Boli Infecțioase",
+        "Cardiologie",
+        "Dermatovenerologie",
+        "Endocrinologie",
+        "Medicină Internă",
+        "Nefrologie",
+        "Neonatologie",
+        "Neurologie",
+        "Oncologie Medicală",
+        "Pediatrie",
+        "Pneumologie",
+        "Psihiatrie",
+        "Chirurgie Generală",
+        "Obstetrică-Ginecologie",
+        "Oftalmologie",
+        "Ortopedie și Traumatologie",
+        "ORL",
+        "Urologie"
+      ],
+      "specialitati_nota": null
+    },
+    {
+      "id": "arad-scju",
+      "nume_spital": "Spitalul Clinic Județean de Urgență Arad",
+      "oras": "Arad",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.scjarad.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Cerere Programare Online",
+          "link": "https://www.scjarad.ro/programare/"
+        }
+      ],
+      "telefon_programari": "0357407200",
+      "email_programari": "secretariat@scjarad.ro",
+      "note_verificare": "Formularul de programare online genereaza un contact telefonic ulterior pentru confirmare, nu o programare instanta.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null
+    },
+    {
+      "id": "bacau-sju",
+      "nume_spital": "Spitalul Județean de Urgență Bacău",
+      "oras": "Bacău",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.spitaluljudeteanbacau.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programari.spitaluljudeteanbacau.ro/"
+        }
+      ],
+      "telefon_programari": "0234700300",
+      "email_programari": "office@spitaluljudeteanbacau.ro",
+      "note_verificare": "Are si Call Center dedicat programarilor pentru cine nu are acces la internet: 0234 700 300 sau 0234 700 333, Luni-Vineri 07:00-19:00.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null
     }
   ]
 }
