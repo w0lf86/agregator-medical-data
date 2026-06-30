@@ -1,6 +1,6 @@
 {
   "versiune_schema": "2.0",
-  "ultima_actualizare": "2026-06-29",
+  "ultima_actualizare": "2026-06-30",
   "nota": "linkuri_programari poate avea 0, 1 sau mai multe intrari. telefon_programari e folosit pentru click-to-call (poate fi null daca nu exista un numar unic confirmat). tip_unitate distinge public/privat. Toate intrarile sunt verificate manual prin cautare reala.",
   "spitale": [
     {
@@ -1395,6 +1395,222 @@
       "note_verificare": "Are si Call Center dedicat programarilor pentru cine nu are acces la internet: 0234 700 300 sau 0234 700 333, Luni-Vineri 07:00-19:00.",
       "verificat_manual": true,
       "specialitati": [],
+      "specialitati_nota": null
+    },
+    {
+      "id": "pitesti-sju",
+      "nume_spital": "Spitalul Județean de Urgență Pitești",
+      "oras": "Pitești",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.sjupitesti.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0248286099",
+      "email_programari": "relatii@sjupitesti.ro",
+      "note_verificare": "Programare telefonica pentru Ambulatoriul de Specialitate la 0248.286.099 (interior cabinet dorit). Nu are inca portal de programare online functional.",
+      "verificat_manual": true,
+      "specialitati": [
+        "Urgențe Medicale",
+        "Chirurgie Generală",
+        "Terapie Intensivă (ATI)",
+        "Cardiologie",
+        "Neurologie",
+        "Pediatrie de Urgență",
+        "Obstetrică-Ginecologie",
+        "Boli Infecțioase",
+        "Oncologie",
+        "Dispensar TBC",
+        "Hemodializă",
+        "Psihiatrie",
+        "Medicină Sportivă",
+        "Dermatologie"
+      ],
+      "specialitati_nota": null
+    },
+    {
+      "id": "buzau-sju",
+      "nume_spital": "Spitalul Județean de Urgență Buzău",
+      "oras": "Buzău",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.spitalulbuzau.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online Ambulatoriu",
+          "link": "https://programare.spitalulbuzau.ro/"
+        }
+      ],
+      "telefon_programari": "0238719132",
+      "email_programari": null,
+      "note_verificare": "Programarea online necesita crearea unui cont pe platforma.",
+      "verificat_manual": true,
+      "specialitati": [
+        "Neonatologie",
+        "Urologie",
+        "Recuperare, Medicină Fizică și Balneologie",
+        "Radiologie - Imagistică Medicală",
+        "Pneumologie",
+        "Pediatrie",
+        "ORL",
+        "Ortopedie și Traumatologie",
+        "Oncologie Medicală",
+        "Oftalmologie",
+        "Obstetrică-Ginecologie",
+        "Neurologie",
+        "Medicină Internă",
+        "Medicină de Urgență",
+        "Diabet Zaharat, Nutriție și Boli Metabolice",
+        "Dermatovenerologie",
+        "Chirurgie Plastică - Microchirurgie Reconstructivă",
+        "Chirurgie Orală și Maxilo-Facială",
+        "Cardiologie",
+        "Boli Infecțioase",
+        "Alergologie și Imunologie"
+      ],
+      "specialitati_nota": null
+    },
+    {
+      "id": "ramnicu-valcea-sjv",
+      "nume_spital": "Spitalul Județean de Urgență Vâlcea",
+      "oras": "Râmnicu Vâlcea",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.sjv.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://portal.sjv.ro/appointments"
+        }
+      ],
+      "telefon_programari": "0350405951",
+      "email_programari": "secretariat@sjv.ro",
+      "note_verificare": "Cel mai mare spital din judet (1353 paturi, 4 locatii diferite in Ramnicu Valcea).",
+      "verificat_manual": true,
+      "specialitati": [
+        "Hematologie",
+        "Urologie",
+        "Recuperare, Medicină Fizică și Balneologie",
+        "Psihiatrie Pediatrică",
+        "Psihiatrie",
+        "ORL",
+        "Ortopedie și Traumatologie",
+        "Oncologie Medicală",
+        "Oftalmologie",
+        "Neurologie",
+        "Neurochirurgie",
+        "Medicină Internă",
+        "Anestezie și Terapie Intensivă",
+        "Geriatrie și Gerontologie",
+        "Gastroenterologie",
+        "Endocrinologie",
+        "Diabet Zaharat, Nutriție și Boli Metabolice",
+        "Dermatovenerologie",
+        "Chirurgie Vasculară",
+        "Chirurgie Pediatrică",
+        "Chirurgie Generală",
+        "Cardiologie",
+        "Boli Infecțioase"
+      ],
+      "specialitati_nota": null
+    },
+    {
+      "id": "satu-mare-sjusm",
+      "nume_spital": "Spitalul Județean de Urgență Satu Mare",
+      "oras": "Satu Mare",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://sjusm.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programari.sjusm.ro/"
+        }
+      ],
+      "telefon_programari": "0261748499",
+      "email_programari": "office@sjusm.ro",
+      "note_verificare": "Are si o sectie exterioara la Tasnad. Portal online de programare cu cautare dupa medic sau specialitate.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null
+    },
+    {
+      "id": "baia-mare-sjbm",
+      "nume_spital": "Spitalul Județean de Urgență \"Dr. Constantin Opriș\" Baia Mare",
+      "oras": "Baia Mare",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.spitaljbm.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programari.spitaljbm.ro/"
+        }
+      ],
+      "telefon_programari": "0262205100",
+      "email_programari": "directiune@spitaljbm.ro",
+      "note_verificare": "Are si aplicatie mobila proprie pentru programari si rezultate analize (Google Play: ro.spitalibm.programari). Pentru unele specialitati, cardiologie interventionala si neurochirurgie, deserveste si judetele Satu Mare si Salaj.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null
+    },
+    {
+      "id": "suceava-sju",
+      "nume_spital": "Spitalul Clinic Județean de Urgență \"Sfântul Ioan cel Nou\" Suceava",
+      "oras": "Suceava",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitaluljudeteansuceava.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0230222098",
+      "email_programari": "contabilitate@spjsv.ro",
+      "note_verificare": "Site-ul a avut un sistem de programare online, dar exista multiple reclamatii ale pacientilor ca nu functioneaza corect - recomandat telefonic. 24 sectii, 5 compartimente, ambulatoriu cu 28 specialitati.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null
+    },
+    {
+      "id": "botosani-sju",
+      "nume_spital": "Spitalul Județean de Urgență \"Mavromati\" Botoșani",
+      "oras": "Botoșani",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.spitalulmavromati.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://pacienti.spitalulmavromati.ro/"
+        }
+      ],
+      "telefon_programari": "0231518812",
+      "email_programari": "spital@spitalulmavromati.ro",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null
+    },
+    {
+      "id": "focsani-sju",
+      "nume_spital": "Spitalul Județean de Urgență \"Sf. Pantelimon\" Focșani",
+      "oras": "Focșani",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.spitalvn.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0237625000",
+      "email_programari": "secretariat@spitalvn.ro",
+      "note_verificare": "Unitate multipavilionara (5 adrese diferite in Focsani) - 728 paturi, 31 specialitati. Programarea pentru sectiile ORL, Oftalmologie, Dermatologie, Psihiatrie se face la o platforma separata.",
+      "verificat_manual": true,
+      "specialitati": [
+        "Boli Infecțioase",
+        "Pneumologie",
+        "ORL",
+        "Oftalmologie",
+        "Dermatologie",
+        "Psihiatrie",
+        "Reumatologie",
+        "Recuperare Medicală",
+        "Medicină Fizică"
+      ],
       "specialitati_nota": null
     }
   ]
