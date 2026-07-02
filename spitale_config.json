@@ -45,7 +45,8 @@
       "telefoane_suplimentare": [
         "0215992300",
         "0215992308"
-      ]
+      ],
+      "sector": 1
     },
     {
       "id": "buc-fundeni",
@@ -63,7 +64,8 @@
       "email_programari": "secretariat@icfundeni.ro",
       "telefoane_suplimentare": [
         "0212750700"
-      ]
+      ],
+      "sector": 2
     },
     {
       "id": "buc-suub",
@@ -99,7 +101,8 @@
       "email_programari": "secretariat@suub.ro",
       "telefoane_suplimentare": [
         "0213180519"
-      ]
+      ],
+      "sector": 5
     },
     {
       "id": "buc-grigore-alexandrescu",
@@ -119,7 +122,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "programari@spitalulgrigorealexandrescu.ro"
+      "email_programari": "programari@spitalulgrigorealexandrescu.ro",
+      "sector": 1
     },
     {
       "id": "buc-sf-pantelimon",
@@ -157,7 +161,8 @@
       "telefoane_suplimentare": [
         "0212554849",
         "0212554949"
-      ]
+      ],
+      "sector": 2
     },
     {
       "id": "buc-bagdasar-arseni",
@@ -180,7 +185,8 @@
         "Secția de Arși"
       ],
       "specialitati_nota": "NU are: Obstetrică-Ginecologie, Pediatrie, Oncologie, Urologie ca secție separată. Specializare principala: neurochirurgie.",
-      "email_programari": "directie@bagdasar-arseni.ro"
+      "email_programari": "directie@bagdasar-arseni.ro",
+      "sector": 4
     },
     {
       "id": "buc-iob",
@@ -200,7 +206,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@iob.ro"
+      "email_programari": "secretariat@iob.ro",
+      "sector": 2
     },
     {
       "id": "buc-cdt-babes",
@@ -220,7 +227,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "centru@cdt-babes.ro"
+      "email_programari": "centru@cdt-babes.ro",
+      "sector": 5
     },
     {
       "id": "buc-cantacuzino",
@@ -240,7 +248,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "cantacuzino@spitalul-cantacuzino.ro"
+      "email_programari": "cantacuzino@spitalul-cantacuzino.ro",
+      "sector": 2
     },
     {
       "id": "buc-malaxa",
@@ -260,7 +269,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@spitalmalaxa.ro"
+      "email_programari": "secretariat@spitalmalaxa.ro",
+      "sector": 2
     },
     {
       "id": "buc-filantropia",
@@ -281,7 +291,8 @@
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": null,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [],
+      "sector": 1
     },
     {
       "id": "buc-sf-ioan",
@@ -323,7 +334,8 @@
       "email_programari": "secretariat@sfib.ro",
       "telefoane_suplimentare": [
         "0213345170"
-      ]
+      ],
+      "sector": 2
     },
     {
       "id": "buc-arsuri",
@@ -338,7 +350,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@arsuri.ro"
+      "email_programari": "secretariat@arsuri.ro",
+      "sector": 1
     },
     {
       "id": "buc-gorgos",
@@ -358,7 +371,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "contact@spitalulgorgos.ro"
+      "email_programari": "contact@spitalulgorgos.ro",
+      "sector": 3
     },
     {
       "id": "buc-inrmfb",
@@ -378,7 +392,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "info@inrmfb.ro"
+      "email_programari": "info@inrmfb.ro",
+      "sector": 1
     },
     {
       "id": "buc-matei-bals",
@@ -392,7 +407,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 2
     },
     {
       "id": "buc-colentina",
@@ -415,7 +431,8 @@
       "email_programari": "secretariat@spitalulcolentina.ro",
       "telefoane_suplimentare": [
         "0213173245"
-      ]
+      ],
+      "sector": 2
     },
     {
       "id": "buc-colentina-ambulatoriu",
@@ -429,7 +446,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 2
     },
     {
       "id": "cluj-scju",
@@ -449,7 +467,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@scjucluj.ro"
+      "email_programari": "secretariat@scjucluj.ro",
+      "sector": null
     },
     {
       "id": "iasi-sf-spiridon",
@@ -468,7 +487,8 @@
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "tm-pius-brinzeu",
@@ -492,7 +512,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "judetean@hosptm.ro"
+      "email_programari": "judetean@hosptm.ro",
+      "sector": null
     },
     {
       "id": "ct-sf-apostol-andrei",
@@ -512,7 +533,8 @@
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@spitalulconstanta.ro"
+      "email_programari": "secretariat@spitalulconstanta.ro",
+      "sector": null
     },
     {
       "id": "buc-oftalmologie-olteanu",
@@ -526,7 +548,8 @@
       "note_verificare": "Fostul Spital Clinic de Urgențe Oftalmologice. Programarea se face per medic (numere individuale pe site), nu printr-un portal unic.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 1
     },
     {
       "id": "buc-orl-hociota",
@@ -545,7 +568,8 @@
       "note_verificare": "Butonul \"Fă-ți o programare\" e pe pagina principală a site-ului.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 1
     },
     {
       "id": "buc-omf-theodorescu",
@@ -559,7 +583,8 @@
       "note_verificare": "Programare doar telefonică.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 1
     },
     {
       "id": "buc-burghele",
@@ -578,7 +603,8 @@
       "note_verificare": "Cunoscut popular ca \"Spitalul Panduri\" (denumire veche).",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 5
     },
     {
       "id": "buc-coltea",
@@ -598,7 +624,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@coltea.ro"
+      "email_programari": "secretariat@coltea.ro",
+      "sector": 3
     },
     {
       "id": "buc-obregia",
@@ -618,7 +645,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@spital-obregia.ro"
+      "email_programari": "secretariat@spital-obregia.ro",
+      "sector": 4
     },
     {
       "id": "buc-nefrologie-davila",
@@ -638,7 +666,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "contact@spcaroldavila.ro"
+      "email_programari": "contact@spcaroldavila.ro",
+      "sector": 1
     },
     {
       "id": "buc-maria-curie",
@@ -652,7 +681,8 @@
       "note_verificare": "Programare telefonică, pe interioare diferite per secție (vezi site pentru lista completă).",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 4
     },
     {
       "id": "buc-spital-militar-central",
@@ -696,7 +726,8 @@
         "Medicină Nucleară",
         "Cardiologie"
       ],
-      "specialitati_nota": "Acces public (CNAS), nu doar pentru militari. Unul dintre cele mai complete spitale din Bucuresti (peste 1200 paturi)."
+      "specialitati_nota": "Acces public (CNAS), nu doar pentru militari. Unul dintre cele mai complete spitale din Bucuresti (peste 1200 paturi).",
+      "sector": 1
     },
     {
       "id": "buc-cardio-iliescu",
@@ -714,7 +745,8 @@
       "email_programari": "ibcardio@gmail.com",
       "telefoane_suplimentare": [
         "0213026758"
-      ]
+      ],
+      "sector": 2
     },
     {
       "id": "buc-agrippa-ionescu",
@@ -747,7 +779,8 @@
         "Diabet Zaharat, Nutriție și Boli Metabolice",
         "UPU"
       ],
-      "specialitati_nota": "Corectat: are mai multe specialitati decat marcat initial (inclusiv Obstetrica-Ginecologie, Neurologie, Ortopedie)."
+      "specialitati_nota": "Corectat: are mai multe specialitati decat marcat initial (inclusiv Obstetrica-Ginecologie, Neurologie, Ortopedie).",
+      "sector": 1
     },
     {
       "id": "buc-neurologie-innbn",
@@ -761,7 +794,8 @@
       "note_verificare": "IMPORTANT: site-ul oficial precizează explicit \"NU SE FAC PROGRAMARI PENTRU CONSULTATII\" - accesul se face prin transfer/bilet de trimitere, nu prin programare directă a pacientului. Telefonul e pt informații generale.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 4
     },
     {
       "id": "buc-insmc-alessandrescu-rusescu",
@@ -781,7 +815,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariatpolizu@insmc.ro"
+      "email_programari": "secretariatpolizu@insmc.ro",
+      "sector": 1
     },
     {
       "id": "priv-sanador",
@@ -801,7 +836,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "frontdesk@sanador.ro"
+      "email_programari": "frontdesk@sanador.ro",
+      "sector": 1
     },
     {
       "id": "priv-regina-maria-baneasa",
@@ -820,7 +856,8 @@
       "note_verificare": "Singurul spital din România cu maternitate acreditată internațional JCI.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 1
     },
     {
       "id": "priv-medlife-ortopedie",
@@ -834,7 +871,8 @@
       "note_verificare": "Primul spital privat din România dedicat integral sferei ortopedice. MedLife are si alte spitale (Titan, NORD Pipera) - de adaugat separat daca vrei extindere.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 4
     },
     {
       "id": "priv-medicover-pipera",
@@ -854,7 +892,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "receptie.spital@medicover.ro"
+      "email_programari": "receptie.spital@medicover.ro",
+      "sector": 1
     },
     {
       "id": "buc-ana-aslan",
@@ -869,7 +908,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "programari.policlinica@ana-aslan.ro"
+      "email_programari": "programari.policlinica@ana-aslan.ro",
+      "sector": 2
     },
     {
       "id": "buc-parhon",
@@ -889,7 +929,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@parhon.ro"
+      "email_programari": "secretariat@parhon.ro",
+      "sector": 1
     },
     {
       "id": "buc-cf-witting",
@@ -909,7 +950,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@spitalcfwiting.ro"
+      "email_programari": "secretariat@spitalcfwiting.ro",
+      "sector": 1
     },
     {
       "id": "buc-ion-stoia",
@@ -924,7 +966,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "receptie@reumatologiedrstoia.ro"
+      "email_programari": "receptie@reumatologiedrstoia.ro",
+      "sector": 2
     },
     {
       "id": "buc-robanescu",
@@ -939,7 +982,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "cnmrnc@yahoo.com"
+      "email_programari": "cnmrnc@yahoo.com",
+      "sector": 6
     },
     {
       "id": "buc-paulescu",
@@ -954,7 +998,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@paulescu.ro"
+      "email_programari": "secretariat@paulescu.ro",
+      "sector": 2
     },
     {
       "id": "buc-sf-maria",
@@ -969,7 +1014,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "ambulator@spitalsfmaria.ro"
+      "email_programari": "ambulator@spitalsfmaria.ro",
+      "sector": 1
     },
     {
       "id": "buc-victor-gomoiu",
@@ -987,7 +1033,8 @@
       "email_programari": "contact@spitalgomoiu.ro",
       "telefoane_suplimentare": [
         "0213212162"
-      ]
+      ],
+      "sector": 4
     },
     {
       "id": "buc-foisor",
@@ -1002,7 +1049,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "pacient@foisor.ro"
+      "email_programari": "pacient@foisor.ro",
+      "sector": 1
     },
     {
       "id": "buc-victor-babes-infectioase",
@@ -1016,7 +1064,8 @@
       "note_verificare": "Diferit de Centrul de Diagnostic si Tratament (CDT) Victor Babes, deja in lista, care e institutie separata. Adresa: Sos. Mihai Bravu nr. 281, sector 3.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 3
     },
     {
       "id": "buc-sf-stefan",
@@ -1031,7 +1080,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "contact@pneumosfstefan.ro"
+      "email_programari": "contact@pneumosfstefan.ro",
+      "sector": 2
     },
     {
       "id": "buc-sf-luca",
@@ -1045,7 +1095,8 @@
       "note_verificare": "Specializat pe ingrijiri cronice/paliative. Adresa: Sos. Berceni nr. 12, sector 4. Telefon de confirmat.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": 4
     },
     {
       "id": "buc-panait-sirbu",
@@ -1060,7 +1111,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "contact@panaitsarbu.ro"
+      "email_programari": "contact@panaitsarbu.ro",
+      "sector": 6
     },
     {
       "id": "priv-medicover-cluj",
@@ -1079,7 +1131,8 @@
       "note_verificare": "Printre cele mai mari spitale private din Transilvania (190 paturi). Telefon weekend diferit: 0264 323 323.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "priv-transilvania-cluj",
@@ -1098,7 +1151,8 @@
       "note_verificare": "Considerat cel mai modern spital privat din Cluj-Napoca. Are si ambulanta proprie.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "priv-arcadia-iasi",
@@ -1117,7 +1171,8 @@
       "note_verificare": "Cea mai mare retea privata de sanatate din regiunea Moldovei, peste 40 de specialitati.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "priv-medicis-timisoara",
@@ -1136,7 +1191,8 @@
       "note_verificare": "Cel mai modern spital privat MedLife din vestul Romaniei. Programarea recomandata prin aplicatia MedLife.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "priv-pelican-oradea",
@@ -1150,7 +1206,8 @@
       "note_verificare": "Programare telefonica sau online (formular pe site, fiind apoi contactat telefonic). 244+18 paturi. Numar de telefon principal de confirmat pe site.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "priv-euromaterna-constanta",
@@ -1170,7 +1227,8 @@
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "office@euromaterna.ro"
+      "email_programari": "office@euromaterna.ro",
+      "sector": null
     },
     {
       "id": "brasov-scjub",
@@ -1212,7 +1270,8 @@
         "Oncologie",
         "ORL"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "craiova-scjuc",
@@ -1247,7 +1306,8 @@
         "ORL",
         "Urologie"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "galati-scju",
@@ -1287,7 +1347,8 @@
         "ORL",
         "Urologie"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "ploiesti-sjup",
@@ -1315,7 +1376,8 @@
         "Medicină Internă",
         "Cardiologie"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "sibiu-scjus",
@@ -1355,7 +1417,8 @@
         "ORL",
         "Urologie"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "arad-scju",
@@ -1375,7 +1438,8 @@
       "note_verificare": "Formularul de programare online genereaza un contact telefonic ulterior pentru confirmare, nu o programare instanta.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "bacau-sju",
@@ -1395,7 +1459,8 @@
       "note_verificare": "Are si Call Center dedicat programarilor pentru cine nu are acces la internet: 0234 700 300 sau 0234 700 333, Luni-Vineri 07:00-19:00.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "pitesti-sju",
@@ -1425,7 +1490,8 @@
         "Medicină Sportivă",
         "Dermatologie"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "buzau-sju",
@@ -1467,7 +1533,8 @@
         "Boli Infecțioase",
         "Alergologie și Imunologie"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "ramnicu-valcea-sjv",
@@ -1511,7 +1578,8 @@
         "Cardiologie",
         "Boli Infecțioase"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "satu-mare-sjusm",
@@ -1531,7 +1599,8 @@
       "note_verificare": "Are si o sectie exterioara la Tasnad. Portal online de programare cu cautare dupa medic sau specialitate.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "baia-mare-sjbm",
@@ -1551,7 +1620,8 @@
       "note_verificare": "Are si aplicatie mobila proprie pentru programari si rezultate analize (Google Play: ro.spitalibm.programari). Pentru unele specialitati, cardiologie interventionala si neurochirurgie, deserveste si judetele Satu Mare si Salaj.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "suceava-sju",
@@ -1566,7 +1636,8 @@
       "note_verificare": "Site-ul a avut un sistem de programare online, dar exista multiple reclamatii ale pacientilor ca nu functioneaza corect - recomandat telefonic. 24 sectii, 5 compartimente, ambulatoriu cu 28 specialitati.",
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "botosani-sju",
@@ -1586,7 +1657,8 @@
       "note_verificare": null,
       "verificat_manual": true,
       "specialitati": [],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     },
     {
       "id": "focsani-sju",
@@ -1611,7 +1683,8 @@
         "Recuperare Medicală",
         "Medicină Fizică"
       ],
-      "specialitati_nota": null
+      "specialitati_nota": null,
+      "sector": null
     }
   ]
 }
