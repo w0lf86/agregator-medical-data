@@ -1,6 +1,6 @@
 {
   "versiune_schema": "2.0",
-  "ultima_actualizare": "2026-06-30",
+  "ultima_actualizare": "2026-07-05",
   "nota": "linkuri_programari poate avea 0, 1 sau mai multe intrari. telefon_programari e folosit pentru click-to-call (poate fi null daca nu exista un numar unic confirmat). tip_unitate distinge public/privat. Toate intrarile sunt verificate manual prin cautare reala.",
   "spitale": [
     {
@@ -53,10 +53,15 @@
       "nume_spital": "Institutul Clinic Fundeni",
       "oras": "București",
       "categorie": "Institut Clinic",
-      "link_website": "https://www.icfundeni.ro",
-      "linkuri_programari": [],
+      "link_website": "https://icfundeni.ro/",
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://icfundeni.ro/programari-online/"
+        }
+      ],
       "telefon_programari": "0212750500",
-      "note_verificare": "Programare doar telefonică, conform site-ului oficial.",
+      "note_verificare": "Dispune de portal oficial pentru programări online și numere de programări telefonice direct pe site.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
@@ -73,9 +78,14 @@
       "oras": "București",
       "categorie": "Spital Universitar de Urgență",
       "link_website": "https://www.suub.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programări Ambulatoriu Online",
+          "link": "https://www.suub.ro/programari-ambulatoriu/"
+        }
+      ],
       "telefon_programari": "0212026147",
-      "note_verificare": "Programare doar telefonică (ambulatoriu).",
+      "note_verificare": "Dispune de portal oficial pentru programări ambulatoriu online și programare telefonică.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [
@@ -170,9 +180,14 @@
       "oras": "București",
       "categorie": "Spital Clinic de Urgență",
       "link_website": "https://www.bagdasar-arseni.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "http://81.12.137.82:8084/ProgramariOnline/"
+        }
+      ],
       "telefon_programari": "0213343025",
-      "note_verificare": "Programare doar telefonică.",
+      "note_verificare": "Dispune de portal oficial de programări online și asistență telefonică.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [
@@ -198,15 +213,25 @@
         {
           "nume": "Programări Online",
           "link": "https://iob.ro/programari-online/"
+        },
+        {
+          "nume": "Contact Secții Programări",
+          "link": "https://iob.ro/date-contact-sectii-pentru-programari/"
         }
       ],
-      "telefon_programari": "0212271000",
-      "note_verificare": null,
+      "telefon_programari": "021 227 1595",
+      "note_verificare": "Dispune de portal oficial pentru programări online, pagină cu datele de contact ale secțiilor pentru programări, numere directe pentru centrală și urgențe.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": "secretariat@iob.ro",
+      "telefoane_suplimentare": [
+        "Centrală: 021 227 1000",
+        "Centrală: 021 227 1001",
+        "Camera de gardă: 021 227 1094",
+        "Secretariat Manager: 021 227 1400"
+      ],
       "sector": 2
     },
     {
@@ -259,17 +284,24 @@
       "link_website": "https://www.spitalmalaxa.ro",
       "linkuri_programari": [
         {
+          "nume": "Programări Online (AxaMedis)",
+          "link": "https://programari.axamedis.ro/malaxa/"
+        },
+        {
           "nume": "Programare Online (HIPOCRATE - ASSMB)",
           "link": "https://programarionline.spitalmalaxa.ro:8443/programarionline/"
         }
       ],
-      "telefon_programari": "0212555405",
-      "note_verificare": "Corectat: spitalul foloseste portalul oficial ASSMB, nu axamedis (linkul vechi).",
+      "telefon_programari": "021 570 9672",
+      "note_verificare": "Actualizat la noile portaluri oficiale de programări (AxaMedis și ASSMB), cu asistență telefonică dedicată programărilor.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "secretariat@spitalmalaxa.ro",
+      "email_programari": "office@spitalmalaxa.ro, secretariat@spitalmalaxa.ro",
+      "telefoane_suplimentare": [
+        "Centrală: 021 255 5405"
+      ],
       "sector": 2
     },
     {
@@ -285,13 +317,15 @@
         }
       ],
       "telefon_programari": "0213188930",
-      "note_verificare": null,
+      "note_verificare": "Adăugat număr suplimentar pentru programări morfologii și mamografii (+40 372 922 081).",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": null,
-      "telefoane_suplimentare": [],
+      "telefoane_suplimentare": [
+        "+40 372 922 081 (Programări Morfologii și Mamografii)"
+      ],
       "sector": 1
     },
     {
@@ -345,12 +379,15 @@
       "link_website": "https://arsuri.ro",
       "linkuri_programari": [],
       "telefon_programari": "0212240947",
-      "note_verificare": "Programare doar telefonică.",
+      "note_verificare": "Programare doar telefonică. Adăugat număr secundar de contact.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": "secretariat@arsuri.ro",
+      "telefoane_suplimentare": [
+        "+4021 224 0946"
+      ],
       "sector": 1
     },
     {
@@ -366,12 +403,18 @@
         }
       ],
       "telefon_programari": "0213412031",
-      "note_verificare": "Corectat: are programare online, nu doar telefonică, cum era marcat inițial.",
+      "note_verificare": "Actualizat cu numere de telefon suplimentare pentru Psihiatrie Adulți și Psihiatrie Pediatrică.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": "contact@spitalulgorgos.ro",
+      "telefoane_suplimentare": [
+        "Psihiatrie adulți: 021-341.20.32",
+        "Psihiatrie adulți: 021-341.20.33",
+        "Psihiatrie adulți: 021-341.20.34",
+        "Psihiatrie Pediatrică: 031-437.99.20"
+      ],
       "sector": 3
     },
     {
@@ -513,6 +556,9 @@
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": "judetean@hosptm.ro",
+      "telefoane_suplimentare": [
+        "0256403062"
+      ],
       "sector": null
     },
     {
@@ -841,19 +887,19 @@
     },
     {
       "id": "priv-regina-maria-baneasa",
-      "nume_spital": "Spitalul Băneasa (Regina Maria)",
+      "nume_spital": "Regina Maria București",
       "oras": "București",
-      "categorie": "Spital Privat - Maternitate și Chirurgie",
+      "categorie": "Spital Privat - Rețea Națională",
       "tip_unitate": "privat",
-      "link_website": "https://www.reginamaria.ro/spitale/spitalul-baneasa",
+      "link_website": "https://www.reginamaria.ro/",
       "linkuri_programari": [
         {
           "nume": "Programare Online",
-          "link": "https://www.reginamaria.ro/spitale/spitalul-baneasa/programare"
+          "link": "https://www.reginamaria.ro/programare"
         }
       ],
       "telefon_programari": "0219268",
-      "note_verificare": "Singurul spital din România cu maternitate acreditată internațional JCI.",
+      "note_verificare": "Actualizat la Rețeaua Națională Regina Maria București cu link-ul direct de programare.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -861,14 +907,19 @@
     },
     {
       "id": "priv-medlife-ortopedie",
-      "nume_spital": "Spitalul de Ortopedie și Chirurgie Plastică MedLife",
+      "nume_spital": "MedLife București (Sediul Principal & Rețea)",
       "oras": "București",
-      "categorie": "Spital Privat de Ortopedie și Chirurgie Plastică",
+      "categorie": "Spital Privat Multidisciplinar și Rețea Națională",
       "tip_unitate": "privat",
-      "link_website": "https://www.medlife.ro/spitalul-de-ortopedie-si-chirurgie-plastica-medlife",
-      "linkuri_programari": [],
+      "link_website": "https://www.medlife.ro/",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (Cont Pacient)",
+          "link": "https://www.medlife.ro/cont-pacient/autentificare"
+        }
+      ],
       "telefon_programari": "0219646",
-      "note_verificare": "Primul spital privat din România dedicat integral sferei ortopedice. MedLife are si alte spitale (Titan, NORD Pipera) - de adaugat separat daca vrei extindere.",
+      "note_verificare": "Actualizat la site-ul principal MedLife și portalul de programări online securizat.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -876,19 +927,19 @@
     },
     {
       "id": "priv-medicover-pipera",
-      "nume_spital": "Spitalul Medicover Pipera",
+      "nume_spital": "Medicover București (Sediul Principal & Rețea)",
       "oras": "București",
-      "categorie": "Spital Privat Multidisciplinar",
+      "categorie": "Spital Privat Multidisciplinar și Rețea Națională",
       "tip_unitate": "privat",
-      "link_website": "https://www.medicover.ro/spital-bucuresti/",
+      "link_website": "https://www.medicover.ro/",
       "linkuri_programari": [
         {
-          "nume": "Programare Online",
-          "link": "https://programare.medicover.ro/"
+          "nume": "Solicitare Programare Online",
+          "link": "https://programare.medicover.ro/solicitare-programare"
         }
       ],
       "telefon_programari": "0219896",
-      "note_verificare": "Cel mai modern spital multidisciplinar Medicover - chirurgie robotică, laparoscopică.",
+      "note_verificare": "Actualizat la portalul principal Medicover și pagina oficială de solicitare programări.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -902,9 +953,14 @@
       "categorie": "Institut de Geriatrie și Gerontologie",
       "tip_unitate": "public",
       "link_website": "https://ana-aslan.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://ana-aslan.ro/list/programari-online"
+        }
+      ],
       "telefon_programari": "0772002162",
-      "note_verificare": "Programare telefonică sau WhatsApp (09:00-19:00), sau prin formular pe site. Sediu central in Otopeni, punct de lucru ambulatoriu in Bucuresti, Spatarului nr 15.",
+      "note_verificare": "Programare online, telefonică sau WhatsApp (09:00-19:00). Sediu central in Otopeni, punct de lucru ambulatoriu in Bucuresti, Spatarului nr 15.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -920,12 +976,12 @@
       "link_website": "https://parhon.ro",
       "linkuri_programari": [
         {
-          "nume": "Programare Online",
-          "link": "https://appointments.parhon.ro/"
+          "nume": "Programare Online (AxaMedis)",
+          "link": "https://programari.axamedis.ro/inep"
         }
       ],
       "telefon_programari": "0213172041",
-      "note_verificare": "Programarea online se solicita cu minim 72 ore inainte.",
+      "note_verificare": "Actualizat linkul de programare online direct la platforma AxaMedis.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -960,9 +1016,14 @@
       "categorie": "Centru de Reumatologie",
       "tip_unitate": "public",
       "link_website": "https://reumatologiedrstoia.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://reumatologiedrstoia.ro/programare/"
+        }
+      ],
       "telefon_programari": "0213175025",
-      "note_verificare": "Singurul spital de monospecialitate din tara pe reumatologie. Programare doar telefonica.",
+      "note_verificare": "Singurul spital de monospecialitate din tara pe reumatologie. Oferă și opțiune de programare online.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -976,9 +1037,18 @@
       "categorie": "Centru de Recuperare Pediatrică",
       "tip_unitate": "public",
       "link_website": "https://www.recuperarecopii.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Informații Programări",
+          "link": "https://recuperarecopii.ro/pacienti/programari"
+        },
+        {
+          "nume": "Portal Programări",
+          "link": "https://portal.recuperarecopii.ro/appointments"
+        }
+      ],
       "telefon_programari": "0730565575",
-      "note_verificare": "Specializat exclusiv pe recuperare neuropsihomotorie pentru copii 0-18 ani.",
+      "note_verificare": "Specializat exclusiv pe recuperare neuropsihomotorie pentru copii 0-18 ani. Oferă acum și portal oficial online.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -992,9 +1062,14 @@
       "categorie": "Institut de Diabet și Nutriție",
       "tip_unitate": "public",
       "link_website": "https://paulescu.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Informații Programări",
+          "link": "https://paulescu.ro/contact-page/"
+        }
+      ],
       "telefon_programari": "0212108499",
-      "note_verificare": "Programare doar telefonică. Are 2 sedii: Ion Movila (24/7) si Caragiale (ambulatoriu).",
+      "note_verificare": "Are 2 sedii: Ion Movila (24/7) si Caragiale (ambulatoriu). Link către pagina oficială de contact pentru detalii programări.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -1008,9 +1083,14 @@
       "categorie": "Spital Clinic",
       "tip_unitate": "public",
       "link_website": "https://spitalsfmaria.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://spitalsfmaria.ro/programari/"
+        }
+      ],
       "telefon_programari": "0212223550",
-      "note_verificare": "Programare doar telefonică, pe interioare per sectie/cabinet (vezi pagina Cabinete de pe site).",
+      "note_verificare": "Adăugat linkul direct pentru informații și programări online din ambulatoriu.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -1024,13 +1104,18 @@
       "categorie": "Spital Pediatric",
       "tip_unitate": "public",
       "link_website": "https://www.spitalgomoiu.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://spitalgomoiu.ro/programari/"
+        }
+      ],
       "telefon_programari": "0213232230",
-      "note_verificare": "Programare telefonica/SMS pe sectii - sistemul e suprasolicitat (sub 20% din apeluri preluate, conform anuntului oficial). Nu exista un numar central unic confirmat - vezi pagina \"Programari telefonice\" de pe site pentru numerele exacte pe specialitate.",
+      "note_verificare": "Sistem de programări online adăugat. Programări consult cardiologie pediatrică la e-mail dedicat: cardiologieambulatoriu@spitalgomoiu.ro.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "contact@spitalgomoiu.ro",
+      "email_programari": "contact@spitalgomoiu.ro, cardiologieambulatoriu@spitalgomoiu.ro",
       "telefoane_suplimentare": [
         "0213212162"
       ],
@@ -1061,10 +1146,16 @@
       "link_website": "https://www.spitalulbabes.ro",
       "linkuri_programari": [],
       "telefon_programari": "0213172727",
-      "note_verificare": "Diferit de Centrul de Diagnostic si Tratament (CDT) Victor Babes, deja in lista, care e institutie separata. Adresa: Sos. Mihai Bravu nr. 281, sector 3.",
+      "note_verificare": "Adresa Șoseaua Mihai Bravu nr. 281, sector 3, București. Diferit de Centrul de Diagnostic și Tratament (CDT) Victor Babeș.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
+      "email_programari": "office@spitalulbabes.ro",
+      "telefoane_suplimentare": [
+        "Centrală: 021.317.27.28",
+        "Centrală: 021.317.27.29",
+        "Centrală: 021.317.27.30"
+      ],
       "sector": 3
     },
     {
@@ -1089,13 +1180,19 @@
       "oras": "București",
       "categorie": "Spital de Boli Cronice",
       "tip_unitate": "public",
-      "link_website": null,
-      "linkuri_programari": [],
-      "telefon_programari": null,
-      "note_verificare": "Specializat pe ingrijiri cronice/paliative. Adresa: Sos. Berceni nr. 12, sector 4. Telefon de confirmat.",
+      "link_website": "https://spitalulsfluca.ro/",
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://spitalulsfluca.ro/programari/"
+        }
+      ],
+      "telefon_programari": "0213343010",
+      "note_verificare": "Specializat pe îngrijiri cronice și paliative. Adresa: Șos. Berceni nr. 12, cod 041915, București, Sector 4.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
+      "email_programari": "office@spitalulsfluca.ro",
       "sector": 4
     },
     {
@@ -1105,9 +1202,14 @@
       "categorie": "Maternitate",
       "tip_unitate": "public",
       "link_website": "https://maternitateagiulesti.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://maternitateagiulesti.ro/programare/"
+        }
+      ],
       "telefon_programari": "0213161281",
-      "note_verificare": "Singura clinica de stat din Bucuresti acreditata pentru fertilizare in vitro. Adresa: Calea Giulesti nr. 5, sector 6.",
+      "note_verificare": "Acreditare fertilizare in vitro. Adresa: Calea Giulesti nr. 5, sector 6.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -1168,6 +1270,7 @@
         }
       ],
       "telefon_programari": "0232920",
+      "email_programari": "office@arcadiamedical.ro",
       "note_verificare": "Cea mai mare retea privata de sanatate din regiunea Moldovei, peste 40 de specialitati.",
       "verificat_manual": true,
       "specialitati": [],
@@ -1201,9 +1304,15 @@
       "categorie": "Spital Privat Multidisciplinar",
       "tip_unitate": "privat",
       "link_website": "https://www.spitalpelican.ro",
-      "linkuri_programari": [],
-      "telefon_programari": null,
-      "note_verificare": "Programare telefonica sau online (formular pe site, fiind apoi contactat telefonic). 244+18 paturi. Numar de telefon principal de confirmat pe site.",
+      "linkuri_programari": [
+        {
+          "nume": "Programare / Contact Online",
+          "link": "https://www.spitalpelican.ro/"
+        }
+      ],
+      "telefon_programari": "0259444444",
+      "email_programari": "callcenter@spitalpelican.ro",
+      "note_verificare": "Dispune de asistență telefonică rapidă la 0259 444 444 și formular de programare/contact direct pe portal.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -1282,7 +1391,7 @@
       "link_website": "https://www.scjuc.ro",
       "linkuri_programari": [],
       "telefon_programari": "0251502350",
-      "email_programari": "scjuc.craiova@gmail.com",
+      "email_programari": "info@scjuc.ro, scjuc.craiova@gmail.com",
       "note_verificare": "Programare telefonica: 0251-502350 sau 0251-502103. Cel mai mare spital din Oltenia (1518 paturi, 34 specialitati).",
       "verificat_manual": true,
       "specialitati": [
@@ -1307,6 +1416,9 @@
         "Urologie"
       ],
       "specialitati_nota": null,
+      "telefoane_suplimentare": [
+        "Secretariat Manager / Biroul Programări: 0787 394 466"
+      ],
       "sector": null
     },
     {
@@ -1324,7 +1436,7 @@
       ],
       "telefon_programari": "0236301111",
       "email_programari": "secretariat@spitalulurgentagalati.ro",
-      "note_verificare": "Cel mai mare spital din judetul Galati (1432 paturi).",
+      "note_verificare": "Cel mai mare spital din judetul Galați (1432 paturi).",
       "verificat_manual": true,
       "specialitati": [
         "Anestezie și Terapie Intensivă",
@@ -1357,10 +1469,15 @@
       "categorie": "Spital Județean de Urgență",
       "tip_unitate": "public",
       "link_website": "https://sjup.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online / Consultații",
+          "link": "https://sjup.ro/programare-consultatii-sau-internare/"
+        }
+      ],
       "telefon_programari": "0244537711",
-      "email_programari": null,
-      "note_verificare": "Programare telefonica, pe numere diferite per sectie (vezi sjup.ro/despre-noi/numere-telefon-pentru-programari). Spital pavilionar, functioneaza in 6 locatii diferite in Ploiesti. O aplicatie de programari online e in dezvoltare.",
+      "email_programari": "secretariat@sjup.ro",
+      "note_verificare": "Adăugat linkul direct pentru programări online / consultații și adresa oficială de email.",
       "verificat_manual": true,
       "specialitati": [
         "Chirurgie Plastică și Microchirurgie",
@@ -1450,8 +1567,12 @@
       "link_website": "https://www.spitaluljudeteanbacau.ro",
       "linkuri_programari": [
         {
-          "nume": "Programare Online",
+          "nume": "Programare Online (Portal)",
           "link": "https://programari.spitaluljudeteanbacau.ro/"
+        },
+        {
+          "nume": "Programări Online (Direct)",
+          "link": "https://programari.spitaluljudeteanbacau.ro/Programari-Online"
         }
       ],
       "telefon_programari": "0234700300",
@@ -1630,13 +1751,21 @@
       "categorie": "Spital Clinic Județean de Urgență",
       "tip_unitate": "public",
       "link_website": "https://spitaluljudeteansuceava.ro",
-      "linkuri_programari": [],
-      "telefon_programari": "0230222098",
+      "linkuri_programari": [
+        {
+          "nume": "Portal Programări",
+          "link": "https://portal.spitaluljudeteansuceava.ro/appointments"
+        }
+      ],
+      "telefon_programari": "0230 222 120",
       "email_programari": "contabilitate@spjsv.ro",
-      "note_verificare": "Site-ul a avut un sistem de programare online, dar exista multiple reclamatii ale pacientilor ca nu functioneaza corect - recomandat telefonic. 24 sectii, 5 compartimente, ambulatoriu cu 28 specialitati.",
+      "note_verificare": "Adăugat link portal de programări online și număr de telefon dedicat pentru programări în ambulator.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
+      "telefoane_suplimentare": [
+        "Centrală: 0230 222 098"
+      ],
       "sector": null
     },
     {
@@ -1650,14 +1779,26 @@
         {
           "nume": "Programare Online",
           "link": "https://pacienti.spitalulmavromati.ro/"
+        },
+        {
+          "nume": "Cabinete & Telefoane Programări",
+          "link": "https://www.spitalulmavromati.ro/servicii-ambulatoriu/cabinete-telefoane-programari"
         }
       ],
-      "telefon_programari": "0231518812",
+      "telefon_programari": "0231 518 815",
       "email_programari": "spital@spitalulmavromati.ro",
-      "note_verificare": null,
+      "note_verificare": "Actualizat număr dedicat de programări și listă completă de telefoane pentru centrale, secretariat și fax.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
+      "telefoane_suplimentare": [
+        "Centrală: 0231 518 812",
+        "Centrală: 0231 518 813",
+        "Centrală: 0231 518 814",
+        "Centrală: 0231 518 816",
+        "Secretariat: 0231 518 770",
+        "Fax: 0231 517 780"
+      ],
       "sector": null
     },
     {
@@ -1667,10 +1808,15 @@
       "categorie": "Spital Județean de Urgență",
       "tip_unitate": "public",
       "link_website": "https://www.spitalvn.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Programări Online",
+          "link": "https://portal.spitalvn.ro/"
+        }
+      ],
       "telefon_programari": "0237625000",
       "email_programari": "secretariat@spitalvn.ro",
-      "note_verificare": "Unitate multipavilionara (5 adrese diferite in Focsani) - 728 paturi, 31 specialitati. Programarea pentru sectiile ORL, Oftalmologie, Dermatologie, Psihiatrie se face la o platforma separata.",
+      "note_verificare": "Adăugat link-ul portalului de programări online oficial.",
       "verificat_manual": true,
       "specialitati": [
         "Boli Infecțioase",
