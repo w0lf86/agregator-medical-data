@@ -116,7 +116,7 @@
     },
     {
       "id": "buc-grigore-alexandrescu",
-      "nume_spital": "Spitalul Clinic de Urgență pentru Copii \"Grigore Alexandrescu\"",
+      "nume_spital": "Spitalul Clinic de Urgență pentru Copii 'Grigore Alexandrescu'",
       "oras": "București",
       "categorie": "Spital Pediatric",
       "link_website": "https://www.spitalulgrigorealexandrescu.ro",
@@ -137,7 +137,7 @@
     },
     {
       "id": "buc-sf-pantelimon",
-      "nume_spital": "Spitalul Clinic de Urgență \"Sf. Pantelimon\"",
+      "nume_spital": "Spitalul Clinic de Urgență 'Sf. Pantelimon'",
       "oras": "București",
       "categorie": "Spital Clinic de Urgență",
       "link_website": "https://urgentapantelimon.ro",
@@ -176,7 +176,7 @@
     },
     {
       "id": "buc-bagdasar-arseni",
-      "nume_spital": "Spitalul Clinic de Urgență \"Bagdasar-Arseni\"",
+      "nume_spital": "Spitalul Clinic de Urgență 'Bagdasar-Arseni'",
       "oras": "București",
       "categorie": "Spital Clinic de Urgență",
       "link_website": "https://www.bagdasar-arseni.ro",
@@ -205,7 +205,7 @@
     },
     {
       "id": "buc-iob",
-      "nume_spital": "Institutul Oncologic \"Prof. Dr. Alexandru Trestioreanu\"",
+      "nume_spital": "Institutul Oncologic 'Prof. Dr. Alexandru Trestioreanu'",
       "oras": "București",
       "categorie": "Institut Oncologic",
       "link_website": "https://www.iob.ro",
@@ -236,7 +236,7 @@
     },
     {
       "id": "buc-cdt-babes",
-      "nume_spital": "Centrul de Diagnostic și Tratament \"Dr. Victor Babeș\" (CDT)",
+      "nume_spital": "Centrul de Diagnostic și Tratament 'Dr. Victor Babeș' (CDT)",
       "oras": "București",
       "categorie": "Centru de Diagnostic și Tratament",
       "link_website": "https://www.cdt-babes.ro",
@@ -257,7 +257,7 @@
     },
     {
       "id": "buc-cantacuzino",
-      "nume_spital": "Spitalul Clinic \"Dr. I. Cantacuzino\"",
+      "nume_spital": "Spitalul Clinic 'Dr. I. Cantacuzino'",
       "oras": "București",
       "categorie": "Spital Clinic",
       "link_website": "https://www.spitalul-cantacuzino.ro/",
@@ -278,7 +278,7 @@
     },
     {
       "id": "buc-malaxa",
-      "nume_spital": "Spitalul Clinic \"Nicolae Malaxa\"",
+      "nume_spital": "Spitalul Clinic 'Nicolae Malaxa'",
       "oras": "București",
       "categorie": "Spital Clinic",
       "link_website": "https://www.spitalmalaxa.ro",
@@ -306,7 +306,7 @@
     },
     {
       "id": "buc-filantropia",
-      "nume_spital": "Spitalul Clinic de Obstetrică-Ginecologie \"Filantropia\"",
+      "nume_spital": "Spitalul Clinic de Obstetrică-Ginecologie 'Filantropia'",
       "oras": "București",
       "categorie": "Maternitate",
       "link_website": "https://www.spitalulfilantropia.ro",
@@ -330,13 +330,13 @@
     },
     {
       "id": "buc-sf-ioan",
-      "nume_spital": "Spitalul Clinic de Urgență \"Sf. Ioan\"",
+      "nume_spital": "Spitalul Clinic de Urgență 'Sf. Ioan'",
       "oras": "București",
       "categorie": "Spital Clinic de Urgență",
       "link_website": "https://sfib.ro",
       "linkuri_programari": [],
       "telefon_programari": "0213345190",
-      "note_verificare": "Pagina de 'Programări online' a site-ului afișează \"Momentan în lucru\" - nefuncțională. Foloseste doar telefon.",
+      "note_verificare": "Pagina de 'Programări online' a site-ului afișează 'Momentan în lucru' - nefuncțională. Foloseste doar telefon.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [
@@ -392,7 +392,7 @@
     },
     {
       "id": "buc-gorgos",
-      "nume_spital": "Spitalul de Psihiatrie \"Titan\" (Dr. Constantin Gorgos)",
+      "nume_spital": "Spitalul de Psihiatrie 'Titan' (Dr. Constantin Gorgos)",
       "oras": "București",
       "categorie": "Spital de Psihiatrie",
       "link_website": "https://spitalulgorgos.ro",
@@ -430,7 +430,7 @@
         }
       ],
       "telefon_programari": "0311302300",
-      "note_verificare": "Corectat: are portal online (anterior marcat doar telefonic). Atentie: programarea online era marcata ca \"suspendata din motive tehnice\" pe pagina principala - de reverificat periodic.",
+      "note_verificare": "Corectat: are portal online (anterior marcat doar telefonic). Atentie: programarea online era marcata ca 'suspendata din motive tehnice' pe pagina principala - de reverificat periodic.",
       "verificat_manual": true,
       "tip_unitate": "public",
       "specialitati": [],
@@ -440,7 +440,7 @@
     },
     {
       "id": "buc-matei-bals",
-      "nume_spital": "Institutul Național de Boli Infecțioase \"Prof. Dr. Matei Balș\"",
+      "nume_spital": "Institutul Național de Boli Infecțioase 'Prof. Dr. Matei Balș'",
       "oras": "București",
       "categorie": "Institut de Boli Infecțioase",
       "link_website": "https://www.mateibals.ro",
@@ -515,7 +515,7 @@
     },
     {
       "id": "iasi-sf-spiridon",
-      "nume_spital": "Spitalul Clinic Județean de Urgență \"Sf. Spiridon\"",
+      "nume_spital": "Spitalul Clinic Județean de Urgență 'Sf. Spiridon'",
       "oras": "Iași",
       "categorie": "Spital Clinic Județean de Urgență",
       "link_website": "https://www.spitalspiridon.ro",
@@ -535,7 +535,7 @@
     },
     {
       "id": "tm-pius-brinzeu",
-      "nume_spital": "Spitalul Clinic Județean de Urgență \"Pius Brînzeu\"",
+      "nume_spital": "Spitalul Clinic Județean de Urgență 'Pius Brînzeu'",
       "oras": "Timișoara",
       "categorie": "Spital Clinic Județean de Urgență",
       "link_website": "https://www.hosptm.ro",
@@ -563,7 +563,7 @@
     },
     {
       "id": "ct-sf-apostol-andrei",
-      "nume_spital": "Spitalul Clinic Județean de Urgență \"Sf. Apostol Andrei\"",
+      "nume_spital": "Spitalul Clinic Județean de Urgență 'Sf. Apostol Andrei'",
       "oras": "Constanța",
       "categorie": "Spital Clinic Județean de Urgență",
       "link_website": "https://www.spitalulconstanta.ro",
@@ -584,7 +584,7 @@
     },
     {
       "id": "buc-oftalmologie-olteanu",
-      "nume_spital": "Institutul Clinic de Urgențe Oftalmologice \"Prof. Dr. Mircea Olteanu\"",
+      "nume_spital": "Institutul Clinic de Urgențe Oftalmologice 'Prof. Dr. Mircea Olteanu'",
       "oras": "București",
       "categorie": "Institut de Urgență Oftalmologică",
       "tip_unitate": "public",
@@ -599,7 +599,7 @@
     },
     {
       "id": "buc-orl-hociota",
-      "nume_spital": "Institutul de Fonoaudiologie și Chirurgie Funcțională ORL \"Prof. Dr. D. Hociotă\"",
+      "nume_spital": "Institutul de Fonoaudiologie și Chirurgie Funcțională ORL 'Prof. Dr. D. Hociotă'",
       "oras": "București",
       "categorie": "Institut ORL",
       "tip_unitate": "public",
@@ -611,7 +611,7 @@
         }
       ],
       "telefon_programari": "0214100869",
-      "note_verificare": "Butonul \"Fă-ți o programare\" e pe pagina principală a site-ului.",
+      "note_verificare": "Butonul 'Fă-ți o programare' e pe pagina principală a site-ului.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -619,7 +619,7 @@
     },
     {
       "id": "buc-omf-theodorescu",
-      "nume_spital": "Spitalul Clinic de Chirurgie Oro-Maxilo-Facială \"Prof. Dr. Dan Theodorescu\"",
+      "nume_spital": "Spitalul Clinic de Chirurgie Oro-Maxilo-Facială 'Prof. Dr. Dan Theodorescu'",
       "oras": "București",
       "categorie": "Spital de Chirurgie Oro-Maxilo-Facială",
       "tip_unitate": "public",
@@ -634,7 +634,7 @@
     },
     {
       "id": "buc-burghele",
-      "nume_spital": "Spitalul Clinic \"Prof. Dr. Theodor Burghele\" (Urologie)",
+      "nume_spital": "Spitalul Clinic 'Prof. Dr. Theodor Burghele' (Urologie)",
       "oras": "București",
       "categorie": "Spital Clinic de Urologie",
       "tip_unitate": "public",
@@ -646,7 +646,7 @@
         }
       ],
       "telefon_programari": "0214106910",
-      "note_verificare": "Cunoscut popular ca \"Spitalul Panduri\" (denumire veche).",
+      "note_verificare": "Cunoscut popular ca 'Spitalul Panduri' (denumire veche).",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -675,7 +675,7 @@
     },
     {
       "id": "buc-obregia",
-      "nume_spital": "Spitalul Clinic de Psihiatrie \"Prof. Dr. Al. Obregia\"",
+      "nume_spital": "Spitalul Clinic de Psihiatrie 'Prof. Dr. Al. Obregia'",
       "oras": "București",
       "categorie": "Spital de Psihiatrie",
       "tip_unitate": "public",
@@ -696,7 +696,7 @@
     },
     {
       "id": "buc-nefrologie-davila",
-      "nume_spital": "Spitalul Clinic de Nefrologie \"Dr. Carol Davila\"",
+      "nume_spital": "Spitalul Clinic de Nefrologie 'Dr. Carol Davila'",
       "oras": "București",
       "categorie": "Spital de Nefrologie",
       "tip_unitate": "public",
@@ -717,7 +717,7 @@
     },
     {
       "id": "buc-maria-curie",
-      "nume_spital": "Spitalul Clinic de Urgență pentru Copii \"Maria Sklodowska Curie\"",
+      "nume_spital": "Spitalul Clinic de Urgență pentru Copii 'Maria Sklodowska Curie'",
       "oras": "București",
       "categorie": "Spital Pediatric de Urgență",
       "tip_unitate": "public",
@@ -732,7 +732,7 @@
     },
     {
       "id": "buc-spital-militar-central",
-      "nume_spital": "Spitalul Universitar de Urgență Militar Central \"Dr. Carol Davila\"",
+      "nume_spital": "Spitalul Universitar de Urgență Militar Central 'Dr. Carol Davila'",
       "oras": "București",
       "categorie": "Spital Militar de Urgență",
       "tip_unitate": "public",
@@ -777,7 +777,7 @@
     },
     {
       "id": "buc-cardio-iliescu",
-      "nume_spital": "Institutul de Urgență pentru Boli Cardiovasculare \"Prof. Dr. C.C. Iliescu\"",
+      "nume_spital": "Institutul de Urgență pentru Boli Cardiovasculare 'Prof. Dr. C.C. Iliescu'",
       "oras": "București",
       "categorie": "Institut de Urgență Cardiovasculară",
       "tip_unitate": "public",
@@ -796,7 +796,7 @@
     },
     {
       "id": "buc-agrippa-ionescu",
-      "nume_spital": "Spitalul Clinic de Urgență \"Prof. Dr. Agrippa Ionescu\"",
+      "nume_spital": "Spitalul Clinic de Urgență 'Prof. Dr. Agrippa Ionescu'",
       "oras": "București",
       "categorie": "Spital Clinic de Urgență",
       "tip_unitate": "public",
@@ -837,7 +837,7 @@
       "link_website": "https://www.innbn-bucuresti.ro",
       "linkuri_programari": [],
       "telefon_programari": "0213343004",
-      "note_verificare": "IMPORTANT: site-ul oficial precizează explicit \"NU SE FAC PROGRAMARI PENTRU CONSULTATII\" - accesul se face prin transfer/bilet de trimitere, nu prin programare directă a pacientului. Telefonul e pt informații generale.",
+      "note_verificare": "IMPORTANT: site-ul oficial precizează explicit 'NU SE FAC PROGRAMARI PENTRU CONSULTATII' - accesul se face prin transfer/bilet de trimitere, nu prin programare directă a pacientului. Telefonul e pt informații generale.",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
@@ -845,7 +845,7 @@
     },
     {
       "id": "buc-insmc-alessandrescu-rusescu",
-      "nume_spital": "Institutul Național pentru Sănătatea Mamei și Copilului \"Alessandrescu-Rusescu\" (Polizu)",
+      "nume_spital": "Institutul Național pentru Sănătatea Mamei și Copilului 'Alessandrescu-Rusescu' (Polizu)",
       "oras": "București",
       "categorie": "Institut Materno-Infantil",
       "tip_unitate": "public",
@@ -948,7 +948,7 @@
     },
     {
       "id": "buc-ana-aslan",
-      "nume_spital": "Institutul Național de Gerontologie și Geriatrie \"Ana Aslan\"",
+      "nume_spital": "Institutul Național de Gerontologie și Geriatrie 'Ana Aslan'",
       "oras": "București",
       "categorie": "Institut de Geriatrie și Gerontologie",
       "tip_unitate": "public",
@@ -969,7 +969,7 @@
     },
     {
       "id": "buc-parhon",
-      "nume_spital": "Institutul Național de Endocrinologie \"C.I. Parhon\"",
+      "nume_spital": "Institutul Național de Endocrinologie 'C.I. Parhon'",
       "oras": "București",
       "categorie": "Institut de Endocrinologie",
       "tip_unitate": "public",
@@ -1011,7 +1011,7 @@
     },
     {
       "id": "buc-ion-stoia",
-      "nume_spital": "Centrul Clinic de Boli Reumatismale \"Dr. Ion Stoia\"",
+      "nume_spital": "Centrul Clinic de Boli Reumatismale 'Dr. Ion Stoia'",
       "oras": "București",
       "categorie": "Centru de Reumatologie",
       "tip_unitate": "public",
@@ -1032,7 +1032,7 @@
     },
     {
       "id": "buc-robanescu",
-      "nume_spital": "Centrul Național Clinic de Recuperare Neuropsihomotorie Copii \"Dr. Nicolae Robănescu\"",
+      "nume_spital": "Centrul Național Clinic de Recuperare Neuropsihomotorie Copii 'Dr. Nicolae Robănescu'",
       "oras": "București",
       "categorie": "Centru de Recuperare Pediatrică",
       "tip_unitate": "public",
@@ -1057,7 +1057,7 @@
     },
     {
       "id": "buc-paulescu",
-      "nume_spital": "Institutul Național de Diabet, Nutriție și Boli Metabolice \"N.C. Paulescu\"",
+      "nume_spital": "Institutul Național de Diabet, Nutriție și Boli Metabolice 'N.C. Paulescu'",
       "oras": "București",
       "categorie": "Institut de Diabet și Nutriție",
       "tip_unitate": "public",
@@ -1078,7 +1078,7 @@
     },
     {
       "id": "buc-sf-maria",
-      "nume_spital": "Spitalul Clinic \"Sf. Maria\" (fostul Spitalul Grivița)",
+      "nume_spital": "Spitalul Clinic 'Sf. Maria' (fostul Spitalul Grivița)",
       "oras": "București",
       "categorie": "Spital Clinic",
       "tip_unitate": "public",
@@ -1099,7 +1099,7 @@
     },
     {
       "id": "buc-victor-gomoiu",
-      "nume_spital": "Spitalul Clinic de Copii \"Dr. Victor Gomoiu\"",
+      "nume_spital": "Spitalul Clinic de Copii 'Dr. Victor Gomoiu'",
       "oras": "București",
       "categorie": "Spital Pediatric",
       "tip_unitate": "public",
@@ -1123,7 +1123,7 @@
     },
     {
       "id": "buc-foisor",
-      "nume_spital": "Spitalul Clinic de Ortopedie-Traumatologie și TBC Osteoarticular \"Foișor\"",
+      "nume_spital": "Spitalul Clinic de Ortopedie-Traumatologie și TBC Osteoarticular 'Foișor'",
       "oras": "București",
       "categorie": "Spital de Ortopedie",
       "tip_unitate": "public",
@@ -1139,7 +1139,7 @@
     },
     {
       "id": "buc-victor-babes-infectioase",
-      "nume_spital": "Spitalul Clinic de Boli Infecțioase și Tropicale \"Dr. Victor Babeș\"",
+      "nume_spital": "Spitalul Clinic de Boli Infecțioase și Tropicale 'Dr. Victor Babeș'",
       "oras": "București",
       "categorie": "Spital de Boli Infecțioase",
       "tip_unitate": "public",
@@ -1160,7 +1160,7 @@
     },
     {
       "id": "buc-sf-stefan",
-      "nume_spital": "Spitalul de Pneumoftiziologie \"Sfântul Ștefan\"",
+      "nume_spital": "Spitalul de Pneumoftiziologie 'Sfântul Ștefan'",
       "oras": "București",
       "categorie": "Spital de Pneumoftiziologie",
       "tip_unitate": "public",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "buc-sf-luca",
-      "nume_spital": "Spitalul de Boli Cronice \"Sf. Luca\"",
+      "nume_spital": "Spitalul de Boli Cronice 'Sf. Luca'",
       "oras": "București",
       "categorie": "Spital de Boli Cronice",
       "tip_unitate": "public",
@@ -1197,7 +1197,7 @@
     },
     {
       "id": "buc-panait-sirbu",
-      "nume_spital": "Spitalul Clinic de Obstetrică-Ginecologie \"Prof. Dr. Panait Sîrbu\" (Maternitatea Giulești)",
+      "nume_spital": "Spitalul Clinic de Obstetrică-Ginecologie 'Prof. Dr. Panait Sîrbu' (Maternitatea Giulești)",
       "oras": "București",
       "categorie": "Maternitate",
       "tip_unitate": "public",
@@ -1423,7 +1423,7 @@
     },
     {
       "id": "galati-scju",
-      "nume_spital": "Spitalul Clinic Județean de Urgență \"Sf. Apostol Andrei\" Galați",
+      "nume_spital": "Spitalul Clinic Județean de Urgență 'Sf. Apostol Andrei' Galați",
       "oras": "Galați",
       "categorie": "Spital Clinic Județean de Urgență",
       "tip_unitate": "public",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "ploiesti-sjup",
-      "nume_spital": "Spitalul Județean de Urgență \"Dr. Constantin Andreoiu\" Ploiești",
+      "nume_spital": "Spitalul Județean de Urgență 'Dr. Constantin Andreoiu' Ploiești",
       "oras": "Ploiești",
       "categorie": "Spital Județean de Urgență",
       "tip_unitate": "public",
@@ -1725,7 +1725,7 @@
     },
     {
       "id": "baia-mare-sjbm",
-      "nume_spital": "Spitalul Județean de Urgență \"Dr. Constantin Opriș\" Baia Mare",
+      "nume_spital": "Spitalul Județean de Urgență 'Dr. Constantin Opriș' Baia Mare",
       "oras": "Baia Mare",
       "categorie": "Spital Județean de Urgență",
       "tip_unitate": "public",
@@ -1746,7 +1746,7 @@
     },
     {
       "id": "suceava-sju",
-      "nume_spital": "Spitalul Clinic Județean de Urgență \"Sfântul Ioan cel Nou\" Suceava",
+      "nume_spital": "Spitalul Clinic Județean de Urgență 'Sfântul Ioan cel Nou' Suceava",
       "oras": "Suceava",
       "categorie": "Spital Clinic Județean de Urgență",
       "tip_unitate": "public",
@@ -1770,7 +1770,7 @@
     },
     {
       "id": "botosani-sju",
-      "nume_spital": "Spitalul Județean de Urgență \"Mavromati\" Botoșani",
+      "nume_spital": "Spitalul Județean de Urgență 'Mavromati' Botoșani",
       "oras": "Botoșani",
       "categorie": "Spital Județean de Urgență",
       "tip_unitate": "public",
@@ -1803,7 +1803,7 @@
     },
     {
       "id": "focsani-sju",
-      "nume_spital": "Spitalul Județean de Urgență \"Sf. Pantelimon\" Focșani",
+      "nume_spital": "Spitalul Județean de Urgență 'Sf. Pantelimon' Focșani",
       "oras": "Focșani",
       "categorie": "Spital Județean de Urgență",
       "tip_unitate": "public",
