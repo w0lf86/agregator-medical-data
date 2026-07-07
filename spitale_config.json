@@ -1,6 +1,6 @@
 {
   "versiune_schema": "2.0",
-  "ultima_actualizare": "2026-07-05",
+  "ultima_actualizare": "2026-07-07",
   "nota": "linkuri_programari poate avea 0, 1 sau mai multe intrari. telefon_programari e folosit pentru click-to-call (poate fi null daca nu exista un numar unic confirmat). tip_unitate distinge public/privat. Toate intrarile sunt verificate manual prin cautare reala.",
   "spitale": [
     {
@@ -1830,6 +1830,401 @@
         "Medicină Fizică"
       ],
       "specialitati_nota": null,
+      "sector": null
+    },
+    {
+      "id": "targu-mures-sju",
+      "nume_spital": "Spitalul Clinic Județean de Urgență Târgu Mureș",
+      "oras": "Târgu Mureș",
+      "categorie": "Spital Clinic Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://scjumures.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online (Ambulatoriu/Laborator/Imagistică)",
+          "link": "https://scjumures.ro/programari-online/"
+        }
+      ],
+      "telefon_programari": "0372808100",
+      "email_programari": null,
+      "note_verificare": "Telefon central automat cu meniu interactiv pentru direcționare pe secții.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "alba-iulia-sju",
+      "nume_spital": "Spitalul Județean de Urgență Alba Iulia",
+      "oras": "Alba Iulia",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitalalba.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programari.spitalalba.ro/"
+        }
+      ],
+      "telefon_programari": "0258816219",
+      "email_programari": "secretariat@spitalalba.ro",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "bistrita-sju",
+      "nume_spital": "Spitalul Județean de Urgență Bistrița",
+      "oras": "Bistrița",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitalbn.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://spitalbn.ro/programari-online/"
+        }
+      ],
+      "telefon_programari": "0263212686",
+      "email_programari": "secretariat@spitalbn.ro",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "braila-sju",
+      "nume_spital": "Spitalul Județean de Urgență \"Sf. Ioan\" Brăila",
+      "oras": "Brăila",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitaljudbraila.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0239619180",
+      "email_programari": null,
+      "note_verificare": "Programare telefonică, pe cabinet/specialitate.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "resita-sju",
+      "nume_spital": "Spitalul Județean de Urgență Reșița",
+      "oras": "Reșița",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitalresita.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0255214090",
+      "email_programari": "secretariat@spitalresita.ro",
+      "note_verificare": "Programare telefonică.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "calarasi-sj",
+      "nume_spital": "Spitalul Județean Călărași",
+      "oras": "Călărași",
+      "categorie": "Spital Județean",
+      "tip_unitate": "public",
+      "link_website": "https://spitalcalarasi.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0242312692",
+      "email_programari": null,
+      "note_verificare": "Programare telefonică sau la sediu, pe specialități.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "zalau-sju",
+      "nume_spital": "Spitalul Județean de Urgență Zalău",
+      "oras": "Zalău",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitalzalau.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programari.spitalzalau.ro/"
+        }
+      ],
+      "telefon_programari": "0260614855",
+      "email_programari": "secretariat@spitalzalau.ro",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "sfantu-gheorghe-sju",
+      "nume_spital": "Spitalul Județean de Urgență Sfântu Gheorghe",
+      "oras": "Sfântu Gheorghe",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitalsfg.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://spitalsfg.ro/programari-online/"
+        }
+      ],
+      "telefon_programari": "0267312333",
+      "email_programari": null,
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "targoviste-sju",
+      "nume_spital": "Spitalul Județean de Urgență Târgoviște",
+      "oras": "Târgoviște",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitaltargoviste.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0245213770",
+      "email_programari": null,
+      "note_verificare": "Programare telefonică, pe secții.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "targu-jiu-sju",
+      "nume_spital": "Spitalul Județean de Urgență Târgu Jiu",
+      "oras": "Târgu Jiu",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitju-tjiu.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0253217110",
+      "email_programari": null,
+      "note_verificare": "Programare telefonică.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "giurgiu-sj",
+      "nume_spital": "Spitalul Județean Giurgiu",
+      "oras": "Giurgiu",
+      "categorie": "Spital Județean",
+      "tip_unitate": "public",
+      "link_website": "https://spitaljudeteangiurgiu.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0246212650",
+      "email_programari": null,
+      "note_verificare": "Programare telefonică.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "miercurea-ciuc-sju",
+      "nume_spital": "Spitalul Județean de Urgență Miercurea Ciuc",
+      "oras": "Miercurea Ciuc",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitalmciuc.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://portal.spitalmciuc.ro/"
+        }
+      ],
+      "telefon_programari": "0266324066",
+      "email_programari": "secretariat@spitalmciuc.ro",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "deva-sju",
+      "nume_spital": "Spitalul Județean de Urgență Deva",
+      "oras": "Deva",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spital-deva.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://portal.spital-deva.ro/"
+        }
+      ],
+      "telefon_programari": "0254213566",
+      "email_programari": null,
+      "note_verificare": "Există plângeri ale pacienților privind funcționarea inconsistentă a portalului online - de reverificat periodic, telefon ca alternativă sigură.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "slobozia-sj",
+      "nume_spital": "Spitalul Județean de Urgență Slobozia",
+      "oras": "Slobozia",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitalslobozia.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0243230280",
+      "email_programari": null,
+      "note_verificare": "Site-ul menționează programare online disponibilă, dar nu am găsit un URL de portal clar - de verificat direct pe site.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "drobeta-turnu-severin-sju",
+      "nume_spital": "Spitalul Județean de Urgență Drobeta-Turnu Severin",
+      "oras": "Drobeta-Turnu Severin",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitaldrobeta.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://spitaldrobeta.ro/programari-online/"
+        }
+      ],
+      "telefon_programari": "0252315894",
+      "email_programari": null,
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "piatra-neamt-sju",
+      "nume_spital": "Spitalul Județean de Urgență Piatra Neamț",
+      "oras": "Piatra Neamț",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.sjuneamt.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0233219380",
+      "email_programari": "sjuneamt@sjuneamt.ro",
+      "note_verificare": "Programare telefonică.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "slatina-sju",
+      "nume_spital": "Spitalul Județean de Urgență Slatina",
+      "oras": "Slatina",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.new.spjslatina.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://portal.spjslatina.ro/Programari-Online"
+        }
+      ],
+      "telefon_programari": "0249431703",
+      "email_programari": "secretariat@spjslatina.ro",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "alexandria-sju",
+      "nume_spital": "Spitalul Județean de Urgență Alexandria",
+      "oras": "Alexandria",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.spitalulalexandria.ro",
+      "linkuri_programari": [],
+      "telefon_programari": "0247306711",
+      "email_programari": "secretariat@spitalulalexandria.ro",
+      "note_verificare": "Programare telefonică.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "tulcea-sju",
+      "nume_spital": "Spitalul Județean de Urgență Tulcea",
+      "oras": "Tulcea",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://spitaltulcea.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare Online",
+          "link": "https://programari.spitaltulcea.ro/"
+        }
+      ],
+      "telefon_programari": "0240532211",
+      "email_programari": "spitaltulcea@spitaltulcea.ro",
+      "note_verificare": null,
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
+      "sector": null
+    },
+    {
+      "id": "vaslui-sju",
+      "nume_spital": "Spitalul Județean de Urgență \"Sfânta Chiriachi\" Vaslui",
+      "oras": "Vaslui",
+      "categorie": "Spital Județean de Urgență",
+      "tip_unitate": "public",
+      "link_website": "https://www.sjuvaslui.ro",
+      "linkuri_programari": [
+        {
+          "nume": "Programare pe cabinet/medic",
+          "link": "https://www.sjuvaslui.ro/cabinete/"
+        }
+      ],
+      "telefon_programari": "0235312120",
+      "email_programari": null,
+      "note_verificare": "Programarea se face selectând cabinetul/medicul dorit pe site, apoi opțiunea telefonică sau online per medic.",
+      "verificat_manual": true,
+      "specialitati": [],
+      "specialitati_nota": null,
+      "telefoane_suplimentare": [],
       "sector": null
     }
   ]
