@@ -1,7 +1,7 @@
 {
   "versiune_schema": "2.0",
-  "ultima_actualizare": "2026-07-08",
-  "nota": "Conține lista completă de spitale actualizate cu date complete de contact, specialități și portaluri de programare.",
+  "ultima_actualizare": "2026-07-11",
+  "nota": "Export realizat din aplicația web Manager Spitale Pro.",
   "spitale": [
     {
       "id": "buc-floreasca",
@@ -17,7 +17,7 @@
       ],
       "telefon_programari": "0215709902",
       "note_verificare": null,
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [
         "Medicină Internă",
@@ -50,9 +50,14 @@
         {
           "eticheta": "Linie",
           "numar": "0215992308"
+        },
+        {
+          "eticheta": "Telefon (Centrală)",
+          "numar": "0316200500"
         }
       ],
-      "sector": 1
+      "sector": 1,
+      "sedii": []
     },
     {
       "id": "buc-fundeni",
@@ -68,7 +73,7 @@
       ],
       "telefon_programari": "0212750500",
       "note_verificare": "Dispune de portal oficial pentru programări online și numere de programări telefonice direct pe site.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
@@ -95,7 +100,7 @@
       ],
       "telefon_programari": "0212026147",
       "note_verificare": "Dispune de portal oficial pentru programări ambulatoriu online și programare telefonică.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [
         "Medicină Internă",
@@ -140,7 +145,7 @@
       ],
       "telefon_programari": "0213169366",
       "note_verificare": null,
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
@@ -161,8 +166,8 @@
         }
       ],
       "telefon_programari": null,
-      "note_verificare": "Site-ul oferă și opțiune telefonică, dar nu există un număr unic dedicat programărilor.",
-      "verificat_manual": true,
+      "note_verificare": "Site-ul oferă și opțiune telefonică",
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [
         "Chirurgie Generală",
@@ -183,15 +188,20 @@
       "email_programari": "contact@urgentapantelimon.ro",
       "telefoane_suplimentare": [
         {
-          "eticheta": "Linie",
+          "eticheta": "Birou Programari",
+          "numar": "0212554099"
+        },
+        {
+          "eticheta": "Telefon Centrală",
           "numar": "0212554849"
         },
         {
-          "eticheta": "Linie",
+          "eticheta": "Telefon Centrală",
           "numar": "0212554949"
         }
       ],
-      "sector": 2
+      "sector": 2,
+      "sedii": []
     },
     {
       "id": "buc-bagdasar-arseni",
@@ -203,11 +213,15 @@
         {
           "nume": "Programări Online",
           "link": "http://81.12.137.82:8084/ProgramariOnline/"
+        },
+        {
+          "nume": "Portal Programări",
+          "link": "https://www.bagdasar-arseni.ro/informatii-programari-pacienti"
         }
       ],
       "telefon_programari": "0213343025",
       "note_verificare": "Dispune de portal oficial de programări online și asistență telefonică.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [
         "Neurochirurgie (cea mai mare clinică din România)",
@@ -221,7 +235,17 @@
       "specialitati_nota": "NU are: Obstetrică-Ginecologie, Pediatrie, Oncologie, Urologie ca secție separată. Specializare principala: neurochirurgie.",
       "email_programari": "directie@bagdasar-arseni.ro",
       "sector": 4,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Telefon Centrală",
+          "numar": "0213343026"
+        },
+        {
+          "eticheta": "Telefon Centrală",
+          "numar": "0213343025"
+        }
+      ],
+      "sedii": []
     },
     {
       "id": "buc-iob",
@@ -241,7 +265,7 @@
       ],
       "telefon_programari": "0212271595",
       "note_verificare": "Dispune de portal oficial pentru programări online, pagină cu datele de contact ale secțiilor pentru programări, numere directe pentru centrală și urgențe.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
@@ -278,15 +302,25 @@
           "link": "https://www.cdt-babes.ro/programare_online/programare_online.php"
         }
       ],
-      "telefon_programari": null,
+      "telefon_programari": "021 317 95 03",
       "note_verificare": "Diferit de 'Spitalul Clinic de Boli Infecțioase și Tropicale Victor Babeș' (programari.spitalulbabes.ro) - instituție separată, neadăugată încă.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": "centru@cdt-babes.ro",
       "sector": 5,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Telefon Programări Radiografie",
+          "numar": "0755 093 471"
+        },
+        {
+          "eticheta": "Telefon Programări Radiografie",
+          "numar": "0752 241 196"
+        }
+      ],
+      "sedii": []
     },
     {
       "id": "buc-cantacuzino",
@@ -302,7 +336,7 @@
       ],
       "telefon_programari": "0212107100",
       "note_verificare": null,
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
@@ -320,26 +354,23 @@
         {
           "nume": "Programări Online (AxaMedis)",
           "link": "https://programari.axamedis.ro/malaxa/"
-        },
-        {
-          "nume": "Programare Online (HIPOCRATE - ASSMB)",
-          "link": "https://programarionline.spitalmalaxa.ro:8443/programarionline/"
         }
       ],
       "telefon_programari": "0215709672",
       "note_verificare": "Actualizat la noile portaluri oficiale de programări (AxaMedis și ASSMB), cu asistență telefonică dedicată programărilor.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "office@spitalmalaxa.ro, secretariat@spitalmalaxa.ro",
+      "email_programari": "office@spitalmalaxa.ro",
       "telefoane_suplimentare": [
         {
           "eticheta": "Centrală",
           "numar": "0212555405"
         }
       ],
-      "sector": 2
+      "sector": 2,
+      "sedii": []
     },
     {
       "id": "buc-filantropia",
@@ -355,13 +386,19 @@
       ],
       "telefon_programari": "0213188930",
       "note_verificare": "Adăugat număr suplimentar pentru programări morfologii și mamografii (+40 372 922 081). | +40 372 922 081 (Programări Morfologii și Mamografii)",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": null,
-      "telefoane_suplimentare": [],
-      "sector": 1
+      "email_programari": "office@spitalulfilantropia.ro",
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Programari morfologii si mamografii",
+          "numar": "0372922081"
+        }
+      ],
+      "sector": 1,
+      "sedii": []
     },
     {
       "id": "buc-sf-ioan",
@@ -369,10 +406,19 @@
       "oras": "București",
       "categorie": "Spital Clinic de Urgență",
       "link_website": "https://sfib.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Portal Programări",
+          "link": "https://sfib.ro/ambulatoriu-integrat/"
+        },
+        {
+          "nume": "Program Medici Ambulator",
+          "link": "https://sfib.ro/ambulatoriu-integrat/"
+        }
+      ],
       "telefon_programari": "0213345190",
       "note_verificare": "Pagina de 'Programări online' a site-ului afișează \"Momentan în lucru\" - nefuncțională. Foloseste doar telefon.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [
         "Medicină Internă",
@@ -407,7 +453,8 @@
           "numar": "0213345170"
         }
       ],
-      "sector": 2
+      "sector": 2,
+      "sedii": []
     },
     {
       "id": "buc-arsuri",
@@ -418,7 +465,7 @@
       "linkuri_programari": [],
       "telefon_programari": "0212240947",
       "note_verificare": "Programare doar telefonică. Adăugat număr secundar de contact.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
@@ -445,7 +492,7 @@
       ],
       "telefon_programari": "0213412031",
       "note_verificare": "Actualizat cu numere de telefon suplimentare pentru Psihiatrie Adulți și Psihiatrie Pediatrică.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
@@ -484,7 +531,7 @@
       ],
       "telefon_programari": "0311302300",
       "note_verificare": "Corectat: are portal online (anterior marcat doar telefonic). Atentie: programarea online era marcata ca \"suspendata din motive tehnice\" pe pagina principala - de reverificat periodic.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
@@ -501,12 +548,19 @@
       "linkuri_programari": [],
       "telefon_programari": "0213186100",
       "note_verificare": "Programare doar telefonică.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
       "sector": 2,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Telefon Centrală",
+          "numar": "0212010980"
+        }
+      ],
+      "email_programari": "secretariatinbi@mateibals.ro",
+      "sedii": []
     },
     {
       "id": "buc-colentina",
@@ -516,24 +570,29 @@
       "link_website": "https://nou.spitalulcolentina.ro",
       "linkuri_programari": [
         {
-          "nume": "Programare Online (HIPOCRATE - ASSMB)",
-          "link": "https://programarionline.spitalulcolentina.ro/programarionline/"
+          "nume": "Portal Programări",
+          "link": "https://programari.spitalulcolentina.ro/in-curand/"
+        },
+        {
+          "nume": "Pagina Contact",
+          "link": "https://nou.spitalulcolentina.ro/contact/"
         }
       ],
       "telefon_programari": "0213167320",
       "note_verificare": null,
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": "secretariat@spitalulcolentina.ro",
       "telefoane_suplimentare": [
         {
-          "eticheta": "Linie",
+          "eticheta": "Telefon Centrală",
           "numar": "0213173245"
         }
       ],
-      "sector": 2
+      "sector": 2,
+      "sedii": []
     },
     {
       "id": "buc-colentina-ambulatoriu",
@@ -549,7 +608,14 @@
       "specialitati": [],
       "specialitati_nota": null,
       "sector": 2,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Telefon Programări Direct",
+          "numar": "0213167320"
+        }
+      ],
+      "email_programari": "secretariat@spitalulcolentina.ro",
+      "sedii": []
     },
     {
       "id": "cluj-scju",
@@ -571,7 +637,13 @@
       "specialitati_nota": null,
       "email_programari": "secretariat@scjucluj.ro",
       "sector": null,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Telefon Centrală",
+          "numar": "+40 264 296 296"
+        }
+      ],
+      "sedii": []
     },
     {
       "id": "iasi-sf-spiridon",
@@ -592,7 +664,9 @@
       "specialitati": [],
       "specialitati_nota": null,
       "sector": null,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [],
+      "email_programari": "contact@spitalspiridon.ro",
+      "sedii": []
     },
     {
       "id": "tm-pius-brinzeu",
@@ -608,11 +682,15 @@
         {
           "nume": "Portal Programări (legacy)",
           "link": "https://programari.hosptm.ro/"
+        },
+        {
+          "nume": "Telefoane Sectii",
+          "link": "https://www.hosptm.ro/contact/interioare-sectii/"
         }
       ],
       "telefon_programari": "0752297252",
       "note_verificare": null,
-      "verificat_manual": true,
+      "verificat_manual": false,
       "tip_unitate": "public",
       "specialitati": [],
       "specialitati_nota": null,
@@ -621,9 +699,26 @@
         {
           "eticheta": "Linie",
           "numar": "0256403062"
+        },
+        {
+          "eticheta": "Programari Ambulator",
+          "numar": "0752297252"
+        },
+        {
+          "eticheta": "Programari Ambulator",
+          "numar": "0748331296"
+        },
+        {
+          "eticheta": "Programari Laborator",
+          "numar": "0356433203"
+        },
+        {
+          "eticheta": "Programari Laborator",
+          "numar": "0748331292"
         }
       ],
-      "sector": null
+      "sector": null,
+      "sedii": []
     },
     {
       "id": "ct-sf-apostol-andrei",
@@ -635,6 +730,10 @@
         {
           "nume": "Programări Online",
           "link": "https://programari.spitalulconstanta.ro:44388/ProgramariOnline/"
+        },
+        {
+          "nume": "Telefoane Utile",
+          "link": "https://www.spitalulconstanta.ro/contact/telefoane-utile/"
         }
       ],
       "telefon_programari": "0241503424",
@@ -645,7 +744,8 @@
       "specialitati_nota": null,
       "email_programari": "secretariat@spitalulconstanta.ro",
       "sector": null,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [],
+      "sedii": []
     },
     {
       "id": "buc-oftalmologie-olteanu",
@@ -654,14 +754,26 @@
       "categorie": "Institut de Urgență Oftalmologică",
       "tip_unitate": "public",
       "link_website": "https://spitaloftalmologie.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Numere de telefon Programari",
+          "link": "https://spitaloftalmologie.ro/numere-telefon-programari-interventii-chirurgicale/"
+        }
+      ],
       "telefon_programari": "0213192751",
       "note_verificare": "Fostul Spital Clinic de Urgențe Oftalmologice. Programarea se face per medic (numere individuale pe site), nu printr-un portal unic.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "specialitati": [],
       "specialitati_nota": null,
       "sector": 1,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Secretariat",
+          "numar": "0213192753"
+        }
+      ],
+      "email_programari": null,
+      "sedii": []
     },
     {
       "id": "buc-orl-hociota",
@@ -672,17 +784,19 @@
       "link_website": "https://ifacforl.ro",
       "linkuri_programari": [
         {
-          "nume": "Formular Programare Online (pe homepage)",
-          "link": "https://ifacforl.ro/"
+          "nume": "Portal Programări",
+          "link": "https://programari.ifacforl.ro/"
         }
       ],
-      "telefon_programari": "0214100869",
+      "telefon_programari": "0214102170",
       "note_verificare": "Butonul \"Fă-ți o programare\" e pe pagina principală a site-ului.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "specialitati": [],
       "specialitati_nota": null,
       "sector": 1,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [],
+      "email_programari": "instorl@ifacforl.ro",
+      "sedii": []
     },
     {
       "id": "buc-omf-theodorescu",
@@ -694,11 +808,42 @@
       "linkuri_programari": [],
       "telefon_programari": "0213158855",
       "note_verificare": "Programare doar telefonică.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "specialitati": [],
       "specialitati_nota": null,
       "sector": 1,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Spitalizare de zi",
+          "numar": "021 314 41 31"
+        },
+        {
+          "eticheta": "Camera de garda Chirurgie OMF",
+          "numar": "021 315 52 17"
+        },
+        {
+          "eticheta": "Camera de garda Chirurgie OMF",
+          "numar": "0770.918.384"
+        },
+        {
+          "eticheta": "SERVICIUL DE ANATOMIE PATOLOGICA",
+          "numar": "021 314 25 07"
+        },
+        {
+          "eticheta": "Secția chirurgie OMF – SUPURAȚII",
+          "numar": "031 405 20 68"
+        },
+        {
+          "eticheta": "Secția chirurgie OMF",
+          "numar": "031 405 20 69"
+        },
+        {
+          "eticheta": "Comp. A.T.I.",
+          "numar": "021 314 25 09"
+        }
+      ],
+      "email_programari": "secretariat@spitalomf.ro",
+      "sedii": []
     },
     {
       "id": "buc-burghele",
@@ -715,11 +860,13 @@
       ],
       "telefon_programari": "0214106910",
       "note_verificare": "Cunoscut popular ca \"Spitalul Panduri\" (denumire veche).",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "specialitati": [],
       "specialitati_nota": null,
       "sector": 5,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [],
+      "email_programari": "info@burghele.ro",
+      "sedii": []
     },
     {
       "id": "buc-coltea",
@@ -780,7 +927,7 @@
       ],
       "telefon_programari": "0213189184",
       "note_verificare": null,
-      "verificat_manual": true,
+      "verificat_manual": false,
       "specialitati": [],
       "specialitati_nota": null,
       "email_programari": "contact@spcaroldavila.ro",
@@ -794,14 +941,24 @@
       "categorie": "Spital Pediatric de Urgență",
       "tip_unitate": "public",
       "link_website": "https://www.mscurie.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Portal Programări",
+          "link": "https://programari.mscurie.ro/"
+        },
+        {
+          "nume": "Informatii Programari Omnline",
+          "link": "https://mscurie.ro/meniu_content.php?meniu_nr=3&language=ro&id_meniu_back=120&nume=Online&id_pagina=622"
+        }
+      ],
       "telefon_programari": "0214604260",
       "note_verificare": "Programare telefonică, pe interioare diferite per secție (vezi site pentru lista completă).",
-      "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
+      "verificat_manual": false,
       "sector": 4,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [],
+      "specialitati": [],
+      "email_programari": null,
+      "sedii": []
     },
     {
       "id": "buc-spital-militar-central",
@@ -814,11 +971,15 @@
         {
           "nume": "Programare Online Ambulatoriu",
           "link": "https://programari.scumc.ro/"
+        },
+        {
+          "nume": "Portal Programări+Telefon",
+          "link": "https://www.scumc.ro/contact/"
         }
       ],
       "telefon_programari": "0319458",
       "note_verificare": "Acces public (sistem CNAS), nu doar pentru militari. Program: Luni-Vineri.",
-      "verificat_manual": true,
+      "verificat_manual": false,
       "specialitati": [
         "ATI",
         "Boli Infecțioase",
@@ -847,7 +1008,14 @@
       ],
       "specialitati_nota": "Acces public (CNAS), nu doar pentru militari. Unul dintre cele mai complete spitale din Bucuresti (peste 1200 paturi).",
       "sector": 1,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Telefon Centrală",
+          "numar": "021 319 30 51"
+        }
+      ],
+      "email_programari": null,
+      "sedii": []
     },
     {
       "id": "buc-cardio-iliescu",
@@ -856,7 +1024,12 @@
       "categorie": "Institut de Urgență Cardiovasculară",
       "tip_unitate": "public",
       "link_website": "https://cardioiliescu.ro",
-      "linkuri_programari": [],
+      "linkuri_programari": [
+        {
+          "nume": "Telefoane Utile",
+          "link": "https://cardioiliescu.ro/contact/"
+        }
+      ],
       "telefon_programari": "0213021110",
       "note_verificare": "Programare telefonică (08:00-14:00) sau email. Urgențele se prezintă direct la UPU, 24/7.",
       "verificat_manual": true,
@@ -869,7 +1042,8 @@
           "numar": "0213026758"
         }
       ],
-      "sector": 2
+      "sector": 2,
+      "sedii": []
     },
     {
       "id": "buc-agrippa-ionescu",
@@ -885,8 +1059,8 @@
         }
       ],
       "telefon_programari": "0377720000",
-      "note_verificare": null,
-      "verificat_manual": true,
+      "note_verificare": "Dispune de două sedii principale: unul în București (Arhitect Ion Mincu nr. 7) și unul în Balotești, Ilfov.",
+      "verificat_manual": false,
       "specialitati": [
         "Oftalmologie",
         "Chirurgie Generală",
@@ -904,7 +1078,35 @@
       ],
       "specialitati_nota": "Corectat: are mai multe specialitati decat marcat initial (inclusiv Obstetrica-Ginecologie, Neurologie, Ortopedie).",
       "sector": 1,
-      "telefoane_suplimentare": []
+      "telefoane_suplimentare": [
+        {
+          "eticheta": "Sediul Central (Mincu)",
+          "numar": "0213180522"
+        },
+        {
+          "eticheta": "Sediul Balotești (Urgențe)",
+          "numar": "0212679205"
+        }
+      ],
+      "email_programari": "secretariat.agrippa@dcti.ro",
+      "sedii": [
+        {
+          "nume_sediu": "Sediul București (Central)",
+          "oras": "București",
+          "adresa": "Str. Arhitect Ion Mincu nr. 7, Sector 1, București",
+          "telefon": "0213180522",
+          "email": "spital@spitalulagrippaionescu.ro",
+          "sector": 1
+        },
+        {
+          "nume_sediu": "Sediul Balotești (Secții Secundare)",
+          "oras": "Balotești",
+          "adresa": "Calea București nr. 137, Balotești, Ilfov",
+          "telefon": "0212679205",
+          "email": "spital.balotesti@spitalulagrippaionescu.ro",
+          "sector": null
+        }
+      ]
     },
     {
       "id": "buc-neurologie-innbn",
@@ -1700,8 +1902,6 @@
       "email_programari": "office@spitaluljudeteanbacau.ro",
       "note_verificare": "Are si Call Center dedicat programarilor pentru cine nu are acces la internet: 0234 700 300 sau 0234 700 333, Luni-Vineri 07:00-19:00.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Call Center programări",
@@ -2032,8 +2232,6 @@
       "email_programari": null,
       "note_verificare": "Actualizat cu link-ul noului site web oficial, paginile dedicate pentru programări online și numerele de telefon pentru Ambulatoriu, Laborator, Radiologie și Recuperare Medicală.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Ambulatoriu",
@@ -2075,8 +2273,6 @@
       "email_programari": "contact@spitalalba.ro",
       "note_verificare": "Actualizat cu email-ul oficial de contact, noul portal de programări online, numărul principal de telefon de centrală și link-ul direct către pagina cu contactele secțiilor. | Pentru numerele de telefon directe ale secțiilor/compartimentelor, consultați link-ul oficial din secțiunea de programări.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Centrală",
@@ -2106,8 +2302,6 @@
       "email_programari": "contact@sjub.ro",
       "note_verificare": "Actualizat cu noul site web oficial, noile portaluri de programare online, email-ul oficial și telefoanele specifice pentru Ambulatoriul de Adulți și Copii.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Ambulatoriu Adulți (1)",
@@ -2141,8 +2335,6 @@
       "email_programari": null,
       "note_verificare": "Actualizat denumirea în Spitalul Clinic Județean de Urgență Brăila, noul site web, portalul de programări online și detaliile de contact pentru pavilioane, eliminând numărul invalid 0239619180. | Pavilionul B (Str. Pietății 1): Consultare telefoane mobile pe site",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Programări Paraclinice Radio-Imagistice (int. 5194)",
@@ -2200,8 +2392,6 @@
       "email_programari": "sju.resita@gmail.com",
       "note_verificare": "Actualizat cu noul email sju.resita@gmail.com și adăugat numărul de fax. Numărul de telefon principal de programări a fost eliminat conform instrucțiunilor (se folosește doar fax și lista de contacte oficială).",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Fax",
@@ -2227,8 +2417,6 @@
       "email_programari": "spital@sjucl.ro",
       "note_verificare": "Actualizat cu noul site web oficial, portalul de programări online, adresa de email și telefoanele specifice pentru Ambulatoriu și Imagistică (CT/RMN).",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Centrală/Contact",
@@ -2266,8 +2454,6 @@
       "email_programari": "secretariat@spitalzalau.ro",
       "note_verificare": null,
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [],
       "sector": null
     },
@@ -2288,8 +2474,6 @@
       "email_programari": null,
       "note_verificare": null,
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [],
       "sector": null
     },
@@ -2305,8 +2489,6 @@
       "email_programari": null,
       "note_verificare": "Programare telefonică, pe secții.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [],
       "sector": null
     },
@@ -2327,8 +2509,6 @@
       "email_programari": null,
       "note_verificare": "Actualizat cu linkul direct de programare online și contact WhatsApp manager.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "WhatsApp Manager (probleme întâmpinate la spital)",
@@ -2354,8 +2534,6 @@
       "email_programari": null,
       "note_verificare": "Actualizat cu noul site web oficial, numerele de contact pentru centrală, secretariat și centrul de vaccinare.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Centrală",
@@ -2389,8 +2567,6 @@
       "email_programari": "secretariat@spitalmciuc.ro",
       "note_verificare": "Sediu principal (Spitalul): Str. Dr. Dénes László nr. 2. Sediu administrativ (Direcțiunea): Str. Kossuth Lajos nr. 4. Ambele partajează numerele de contact mobile.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Direcțiune/Secretariat",
@@ -2420,8 +2596,6 @@
       "email_programari": "secretariat@spital-deva.ro",
       "note_verificare": "Actualizat numărul de telefon, adresa de email și pagina oficială de programări / informații.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [],
       "sector": null
     },
@@ -2446,8 +2620,6 @@
       "email_programari": "spitalslobozia@gmail.com",
       "note_verificare": "Actualizat cu portalul medical oficial de logare, portalul direct de programări, e-mail și telefoane suplimentare (centrală, punct recoltare, secretariat).",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Centrală",
@@ -2505,8 +2677,6 @@
       "email_programari": "oficial@spitjudseverin.ro",
       "note_verificare": "Actualizat cu numere de telefon pentru fișier programări, centrală, secretariat și informații detaliate pentru programări RMN/CT.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Fișier programări",
@@ -2548,8 +2718,6 @@
       "email_programari": "sjuneamt@sjuneamt.ro",
       "note_verificare": "Adăugat link-ul pentru programări online și număr de contact suplimentar.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Contact suplimentar",
@@ -2575,8 +2743,6 @@
       "email_programari": "secretariat@spjslatina.ro",
       "note_verificare": "Actualizată pagina oficială, numărul rapid de programări și numerele pentru Biroul de Internări. | Programări: +40.349.911",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Birou Internări (parter, hol cu UPU) (int. 334)",
@@ -2622,8 +2788,6 @@
       "email_programari": "secretariat@spitalulalexandria.ro",
       "note_verificare": "Actualizat cu portalul oficial de programări online.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [],
       "sector": null
     },
@@ -2644,8 +2808,6 @@
       "email_programari": "spitaltulcea@spitaltulcea.ro",
       "note_verificare": "Adăugat numere suplimentare de contact pentru centrală.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [
         {
           "eticheta": "Contact",
@@ -2683,8 +2845,6 @@
       "email_programari": "office@sjuvaslui.ro",
       "note_verificare": "Programarea se face selectând cabinetul/medicul dorit pe site, apoi opțiunea telefonică sau online per medic. Adăugat e-mail de contact.",
       "verificat_manual": true,
-      "specialitati": [],
-      "specialitati_nota": null,
       "telefoane_suplimentare": [],
       "sector": null
     }
