@@ -1,6 +1,6 @@
 {
   "versiune_schema": "2.0",
-  "ultima_actualizare": "2026-07-11",
+  "ultima_actualizare": "2026-07-10",
   "nota": "Export realizat din aplicația web Manager Spitale Pro.",
   "spitale": [
     {
@@ -302,7 +302,7 @@
           "link": "https://www.cdt-babes.ro/programare_online/programare_online.php"
         }
       ],
-      "telefon_programari": "021 317 95 03",
+      "telefon_programari": "0213179503",
       "note_verificare": "Diferit de 'Spitalul Clinic de Boli Infecțioase și Tropicale Victor Babeș' (programari.spitalulbabes.ro) - instituție separată, neadăugată încă.",
       "verificat_manual": false,
       "tip_unitate": "public",
@@ -313,11 +313,11 @@
       "telefoane_suplimentare": [
         {
           "eticheta": "Telefon Programări Radiografie",
-          "numar": "0755 093 471"
+          "numar": "0755093471"
         },
         {
           "eticheta": "Telefon Programări Radiografie",
-          "numar": "0752 241 196"
+          "numar": "0752241196"
         }
       ],
       "sedii": []
@@ -640,7 +640,7 @@
       "telefoane_suplimentare": [
         {
           "eticheta": "Telefon Centrală",
-          "numar": "+40 264 296 296"
+          "numar": "+40264296296"
         }
       ],
       "sedii": []
@@ -815,31 +815,31 @@
       "telefoane_suplimentare": [
         {
           "eticheta": "Spitalizare de zi",
-          "numar": "021 314 41 31"
+          "numar": "0213144131"
         },
         {
           "eticheta": "Camera de garda Chirurgie OMF",
-          "numar": "021 315 52 17"
+          "numar": "0213155217"
         },
         {
           "eticheta": "Camera de garda Chirurgie OMF",
-          "numar": "0770.918.384"
+          "numar": "0770918384"
         },
         {
           "eticheta": "SERVICIUL DE ANATOMIE PATOLOGICA",
-          "numar": "021 314 25 07"
+          "numar": "0213142507"
         },
         {
           "eticheta": "Secția chirurgie OMF – SUPURAȚII",
-          "numar": "031 405 20 68"
+          "numar": "0314052068"
         },
         {
           "eticheta": "Secția chirurgie OMF",
-          "numar": "031 405 20 69"
+          "numar": "0314052069"
         },
         {
           "eticheta": "Comp. A.T.I.",
-          "numar": "021 314 25 09"
+          "numar": "0213142509"
         }
       ],
       "email_programari": "secretariat@spitalomf.ro",
@@ -1011,7 +1011,7 @@
       "telefoane_suplimentare": [
         {
           "eticheta": "Telefon Centrală",
-          "numar": "021 319 30 51"
+          "numar": "0213193051"
         }
       ],
       "email_programari": null,
@@ -1404,11 +1404,11 @@
         }
       ],
       "telefon_programari": "0213232230",
-      "note_verificare": "Sistem de programări online adăugat. Programări consult cardiologie pediatrică la e-mail dedicat: cardiologieambulatoriu@spitalgomoiu.ro.",
+      "note_verificare": "Sistem de programări online adăugat. Programări consult cardiologie pediatrică la e-mail dedicat: cardiologieambulatoriu@spitalgomoiu.ro. | Email suplimentar: cardiologieambulatoriu@spitalgomoiu.ro",
       "verificat_manual": true,
       "specialitati": [],
       "specialitati_nota": null,
-      "email_programari": "contact@spitalgomoiu.ro, cardiologieambulatoriu@spitalgomoiu.ro",
+      "email_programari": "contact@spitalgomoiu.ro",
       "telefoane_suplimentare": [
         {
           "eticheta": "Linie",
@@ -1707,8 +1707,8 @@
       "link_website": "https://www.scjuc.ro",
       "linkuri_programari": [],
       "telefon_programari": "0251502350",
-      "email_programari": "info@scjuc.ro, scjuc.craiova@gmail.com",
-      "note_verificare": "Programare telefonica: 0251-502350 sau 0251-502103. Cel mai mare spital din Oltenia (1518 paturi, 34 specialitati).",
+      "email_programari": "info@scjuc.ro",
+      "note_verificare": "Programare telefonica: 0251-502350 sau 0251-502103. Cel mai mare spital din Oltenia (1518 paturi, 34 specialitati). | Email suplimentar: scjuc.craiova@gmail.com",
       "verificat_manual": true,
       "specialitati": [
         "Anestezie și Terapie Intensivă",
@@ -2739,7 +2739,7 @@
           "link": "https://portal.spjslatina.ro/Programari-Online"
         }
       ],
-      "telefon_programari": "+40.349.911",
+      "telefon_programari": "+40349911",
       "email_programari": "secretariat@spjslatina.ro",
       "note_verificare": "Actualizată pagina oficială, numărul rapid de programări și numerele pentru Biroul de Internări. | Programări: +40.349.911",
       "verificat_manual": true,
